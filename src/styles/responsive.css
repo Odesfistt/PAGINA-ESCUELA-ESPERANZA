@@ -92,7 +92,6 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .admin-news-layout,
   .news-page-card {
     grid-template-columns: 1fr;
   }
@@ -188,9 +187,7 @@
   }
 
   .about-preview-content h2,
-  .home-news-header h2,
-  .admin-news-toolbar h2,
-  .admin-news-list-header h2 {
+  .home-news-header h2 {
     font-size: 2.6rem;
   }
 
@@ -203,8 +200,7 @@
     padding: 35px 20px;
   }
 
-  .home-news-grid,
-  .admin-news-layout {
+  .home-news-grid {
     grid-template-columns: 1fr;
   }
 
@@ -245,22 +241,8 @@
   }
 
   .about-page-section,
-  .news-page-section,
-  .admin-news-section {
+  .news-page-section {
     padding: 60px 20px 70px;
-  }
-
-  .admin-news-toolbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .admin-news-item {
-    grid-template-columns: 1fr;
-  }
-
-  .admin-news-item img {
-    height: 220px;
   }
 
   .footer-main {

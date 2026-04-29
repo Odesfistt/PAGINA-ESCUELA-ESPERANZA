@@ -27,7 +27,7 @@ import { rutas } from "../../lib/rutas";
           <a href={rutas.noticias} class="circle-icon" aria-label="Ir a noticias">
             <i class="fas fa-search"></i>
           </a>
-          <a href={rutas.adminNoticias} class="circle-icon" aria-label="Panel administrador">
+          <a href={rutas.admin} class="circle-icon" aria-label="Panel administrador">
             <i class="fas fa-lock"></i>
           </a>
         </div>
@@ -89,7 +89,7 @@ import { rutas } from "../../lib/rutas";
       <a href={rutas.noticias} class="scroll-icon" aria-label="Ir a noticias">
         <i class="fas fa-search"></i>
       </a>
-      <a href={rutas.adminNoticias} class="scroll-icon" aria-label="Panel administrador">
+      <a href={rutas.admin} class="scroll-icon" aria-label="Panel administrador">
         <i class="fas fa-lock"></i>
       </a>
     </div>
@@ -133,6 +133,6 @@ import { rutas } from "../../lib/rutas";
     {menu.map((item) => (
       <a href={item.href}>{item.label}</a>
     ))}
-    <a href={rutas.adminNoticias}>ADMINISTRADOR</a>
+    <a href={rutas.admin}>ADMINISTRADOR</a>
   </nav>
 </aside>

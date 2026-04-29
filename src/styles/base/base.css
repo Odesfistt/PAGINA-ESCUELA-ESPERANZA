@@ -2,8 +2,8 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #fff;
+  font-family: var(--fuente-base);
+  background: var(--superficie);
   scroll-behavior: smooth;
 }
 

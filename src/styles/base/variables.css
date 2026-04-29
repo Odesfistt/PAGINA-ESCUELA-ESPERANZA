@@ -7,9 +7,21 @@
   --blanco: #ffffff;
   --negro: #111111;
   --amarillo: #d8b548;
+  --verde-tinta: #1d2a1f;
+  --texto: #555555;
+  --superficie: #ffffff;
+  --borde-suave: #eef4ee;
+  --fecha-fondo: #9ec2a4;
+  --fecha-texto: #143118;
 
   --sombra: rgba(0, 0, 0, 0.42);
   --sombra-suave: rgba(0, 0, 0, 0.12);
+  --sombra-card: 0 18px 36px rgba(0, 0, 0, 0.08);
+  --sombra-badge: 0 10px 24px rgba(0, 0, 0, 0.18);
+
+  --fuente-base: Arial, Helvetica, sans-serif;
+  --fuente-titulos: "Oswald", sans-serif;
+  --fuente-marca: "Cormorant Garamond", serif;
 
   --footer-bg: #243427;
   --footer-bg-2: #1a261c;

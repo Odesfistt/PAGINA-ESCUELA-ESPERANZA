@@ -1,0 +1,53 @@
+---
+import { render } from "astro:content";
+import { formatNewsDate, getNewsImage, listarNoticiasPublicas } from "../../lib/noticias";
+
+const noticias = await listarNoticiasPublicas();
+const noticiasRenderizadas = await Promise.all(
+  noticias.map(async (noticia) => ({
+    noticia,
+    Content: (await render(noticia)).Content
+  }))
+);
+---
+
+<main class="internal-page">
+  <section class="internal-hero">
+    <div class="internal-hero-content">
+      <span class="internal-kicker">Noticias</span>
+      <h1>Todas las noticias</h1>
+    </div>
+  </section>
+
+  <section class="news-page-section">
+    {
+      noticias.length > 0 ? (
+        <div class="news-page-list">
+          {noticiasRenderizadas.map(({ noticia, Content }) => (
+            <article class="news-page-card">
+              <div class="news-page-media">
+                <img src={getNewsImage(noticia.data.image)} alt={noticia.data.title} />
+
+                <div class="news-date-badge news-date-badge--page">
+                  <span class="news-date-icon">
+                    <i class="fa-solid fa-book-open"></i>
+                  </span>
+                  <span class="news-date-text">{formatNewsDate(noticia.data.date)}</span>
+                </div>
+              </div>
+
+              <div class="news-page-content">
+                <h2 class="news-page-title">{noticia.data.title}</h2>
+                <Content />
+              </div>
+            </article>
+          ))}
+        </div>
+      ) : (
+        <div class="news-empty-state news-empty-state--page">
+          <p>Todavia no hay noticias publicadas.</p>
+        </div>
+      )
+    }
+  </section>
+</main>

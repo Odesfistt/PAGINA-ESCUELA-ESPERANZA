@@ -1,4 +1,7 @@
 ---
+import Navegacion from "../componentes/sitio/Navegacion.astro";
+import PiePagina from "../componentes/pie-pagina/PiePagina.astro";
+import ScriptsSitio from "../componentes/sistema/ScriptsSitio.astro";
 import "../styles/global.css";
 
 interface Props {
@@ -32,6 +35,9 @@ const {
     />
   </head>
   <body>
+    <Navegacion />
     <slot />
+    <PiePagina />
+    <ScriptsSitio />
   </body>
 </html>

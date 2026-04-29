@@ -73,7 +73,7 @@
 }
 
 .slide-title {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--fuente-titulos);
   font-size: 6rem;
   line-height: 0.9;
   font-weight: 500;
@@ -84,7 +84,7 @@
 }
 
 .slide-subtitle {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--fuente-titulos);
   font-size: 2.3rem;
   line-height: 1.05;
   font-weight: 400;
@@ -103,7 +103,7 @@
   display: inline-block;
   margin-top: 8px;
   background: var(--amarillo);
-  color: #1d2a1f;
+  color: var(--verde-tinta);
   padding: 16px 40px;
   font-weight: 700;
   font-size: 1rem;
@@ -172,7 +172,7 @@
 ========================= */
 .about-preview-section {
   width: 100%;
-  background: #ffffff;
+  background: var(--superficie);
   padding: 90px 20px 40px;
 }
 
@@ -201,7 +201,7 @@
 }
 
 .about-preview-content h2 {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--fuente-titulos);
   font-size: 3.4rem;
   line-height: 0.98;
   text-transform: uppercase;
@@ -212,7 +212,7 @@
 .about-preview-content p {
   font-size: 1rem;
   line-height: 1.9;
-  color: #555;
+  color: var(--texto);
   text-align: justify;
   margin-bottom: 28px;
 }
@@ -220,7 +220,7 @@
 .about-preview-button {
   display: inline-block;
   background: var(--amarillo);
-  color: #1d2a1f;
+  color: var(--verde-tinta);
   padding: 14px 34px;
   font-weight: 700;
   font-size: 0.95rem;
@@ -237,7 +237,7 @@
 
 .features-section {
   width: 100%;
-  background: #ffffff;
+  background: var(--superficie);
   padding: 50px 20px 80px;
 }
 
@@ -265,14 +265,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--blanco);
   font-size: 4rem;
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
-  border: 6px solid #eef4ee;
+  box-shadow: 0 14px 30px var(--sombra-suave);
+  border: 6px solid var(--borde-suave);
 }
 
 .feature-circle-card h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--fuente-titulos);
   font-size: 2rem;
   color: var(--verde-oscuro);
   margin-bottom: 14px;
@@ -285,13 +285,13 @@
   margin: 0 auto;
   font-size: 1rem;
   line-height: 1.7;
-  color: #555;
+  color: var(--texto);
 }
 
 .home-news-section {
   width: 100%;
   padding: 40px 20px;
-  background: #f7f7f7;
+  background: var(--gris-muy-claro);
 }
 
 .home-news-header {
@@ -311,18 +311,12 @@
 }
 
 .home-news-header h2 {
-  font-family: "Oswald", sans-serif;
+  font-family: var(--fuente-titulos);
   font-size: 3rem;
   line-height: 0.98;
   text-transform: uppercase;
   color: var(--verde-oscuro);
-  margin-bottom: 18px;
-}
-
-.home-news-header p {
-  max-width: 760px;
-  color: #555;
-  line-height: 1.8;
+  margin-bottom: 0;
 }
 
 .home-news-grid {

@@ -36,7 +36,7 @@
 }
 
 .brand-text {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--fuente-marca);
   color: var(--verde-principal);
   line-height: 0.88;
   font-weight: 600;
@@ -156,7 +156,7 @@
 }
 
 .mobile-brand span {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--fuente-marca);
   color: var(--verde-principal);
   font-size: 1.9rem;
   font-weight: 700;
@@ -218,7 +218,7 @@
 }
 
 .scroll-brand span {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--fuente-marca);
   font-size: 2rem;
   font-weight: 700;
   color: var(--blanco);
@@ -278,7 +278,7 @@
 }
 
 .scroll-mobile-brand span {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--fuente-marca);
   font-size: 1.45rem;
   font-weight: 700;
   color: var(--blanco);

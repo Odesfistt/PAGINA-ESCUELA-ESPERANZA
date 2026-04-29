@@ -2,5 +2,5 @@ export const rutas = {
   inicio: "/",
   quienesSomos: "/quienes-somos/",
   noticias: "/noticias/",
-  adminNoticias: "/admin/noticias/"
+  admin: "/admin/"
 } as const;
