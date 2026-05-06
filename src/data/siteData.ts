@@ -68,14 +68,56 @@ export const directivas = [
 ];
 
 export const seccionesInstitucionales = [
-  { titulo: "Nuestra historia", id: "nuestra-historia" },
-  { titulo: "Sellos educativos", id: "sellos-educativos" },
-  { titulo: "Nuestras actividades escolares", id: "actividades-escolares" },
-  { titulo: "PEI (Proyecto educativo institucional)", id: "pei" },
-  { titulo: "Reglamento de evaluacion", id: "reglamento-evaluacion" },
-  { titulo: "Reglamento interno", id: "reglamento-interno" },
-  { titulo: "RICE (Reglamento interno de convivencia escolar)", id: "rice" }
+  {
+    titulo: "Nuestra historia",
+    id: "nuestra-historia",
+    href: "/documentos/nuestra-historia.pdf"
+  },
+  {
+    titulo: "Sellos educativos",
+    id: "sellos-educativos",
+    href: "/documentos/sellos-educativos.pdf"
+  },
+  {
+    titulo: "Nuestras actividades escolares",
+    id: "actividades-escolares",
+    href: "/documentos/actividades-escolares.pdf"
+  },
+  {
+    titulo: "PEI (Proyecto educativo institucional)",
+    id: "pei",
+    href: "/documentos/pei.pdf"
+  },
+  {
+    titulo: "Reglamento de evaluacion",
+    id: "reglamento-evaluacion",
+    href: "/documentos/reglamento-evaluacion.pdf"
+  },
+  {
+    titulo: "Reglamento interno",
+    id: "reglamento-interno",
+    href: "/documentos/reglamento-interno.pdf"
+  },
+  {
+    titulo: "RICE (Reglamento interno de convivencia escolar)",
+    id: "rice",
+    href: "/documentos/rice.pdf"
+  }
 ];
+
+export const instagramInicio = {
+  cuenta: "@escuela_esperanzatalca",
+  nombre: "Escuela Esperanza",
+  href: "https://www.instagram.com/escuela_esperanzatalca/",
+  publicaciones: [
+    "/images/slide1.png",
+    "/images/slide2.png",
+    "/images/slide3.png",
+    "/images/slide11.png",
+    "/images/slide22.png",
+    "/images/slide33.png"
+  ]
+};
 
 export const accesosCircularesInicio = [
   {

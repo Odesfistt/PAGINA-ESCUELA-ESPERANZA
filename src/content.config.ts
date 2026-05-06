@@ -13,7 +13,8 @@ const noticias = defineCollection({
       .array(z.union([z.string(), z.object({ foto_url: z.string() })]))
       .optional()
       .default([]),
-    video_url: z.string().optional().default("")
+    video_url: z.string().optional().default(""),
+    draft: z.boolean().optional().default(false)
   })
 });
 

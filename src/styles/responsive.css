@@ -236,7 +236,8 @@
   }
 
   .home-workshops-strip,
-  .home-directories-grid {
+  .home-directories-grid,
+  .institutional-list {
     grid-template-columns: 1fr;
   }
 
@@ -246,6 +247,44 @@
 
   .home-workshop-pill {
     min-height: 78px;
+  }
+
+  .home-instagram-profile {
+    min-height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 26px 20px 22px;
+    text-align: center;
+  }
+
+  .home-instagram-profile img {
+    width: 102px;
+    height: 102px;
+  }
+
+  .home-instagram-profile-header {
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .home-instagram-profile-header h2 {
+    font-size: 1.55rem;
+  }
+
+  .home-instagram-stats {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .home-instagram-tabs {
+    gap: 18px;
+    font-size: 0.75rem;
+  }
+
+  .home-instagram-grid {
+    gap: 3px;
   }
 
   .news-card-image-wrap img {

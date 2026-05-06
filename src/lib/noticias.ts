@@ -2,11 +2,15 @@ import { getCollection, type CollectionEntry } from "astro:content";
 
 export type Noticia = CollectionEntry<"noticias">;
 
+const archivosNoticias = import.meta.glob("../content/noticias/**/*.md");
+
 export async function listarNoticiasPublicas() {
+  if (Object.keys(archivosNoticias).length === 0) return [];
+
   const noticias = await getCollection("noticias");
-  return noticias.sort(
-    (a, b) => getNewsDate(b).getTime() - getNewsDate(a).getTime()
-  );
+  return noticias
+    .filter((noticia) => !noticia.data.draft)
+    .sort((a, b) => getNewsDate(b).getTime() - getNewsDate(a).getTime());
 }
 
 export async function listarUltimasNoticias(limit = 3) {
