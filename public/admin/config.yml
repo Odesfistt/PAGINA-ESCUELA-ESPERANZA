@@ -99,109 +99,29 @@ collections:
                 media_folder: "public/documentos"
                 public_folder: "/documentos"
 
-  - name: "perfiles_equipo_directivo"
-    label: "Perfiles - Equipo directivo"
-    folder: "src/content/perfiles/equipo-directivo"
+  - name: "perfiles"
+    label: "Perfiles"
+    label_singular: "Perfil"
+    folder: "src/content/perfiles"
     create: false
     delete: false
+    nested:
+      depth: 2
+      summary: "{{title}}"
     extension: "md"
     format: "frontmatter"
     summary: "{{cargo}} - {{nombre}}"
     sortable_fields: ["orden", "cargo", "nombre"]
-    fields:
-      - label: "Categoria"
-        name: "categoria"
-        widget: "hidden"
-
-      - label: "Grupo"
-        name: "grupo"
-        widget: "hidden"
-
-      - label: "Orden"
-        name: "orden"
-        widget: "hidden"
-
-      - label: "Titulo interno"
-        name: "title"
-        widget: "hidden"
-
-      - label: "Nombre"
-        name: "nombre"
-        widget: "string"
-        required: true
-
-      - label: "Cargo"
-        name: "cargo"
-        widget: "string"
-        required: true
-
-      - label: "Foto"
-        name: "imagen"
-        widget: "image"
-        required: true
-        media_folder: "public/images/perfiles"
-        public_folder: "/images/perfiles"
-
-      - label: "Descripcion"
-        name: "descripcion"
-        widget: "hidden"
-
-  - name: "perfiles_centro_padres"
-    label: "Perfiles - Centro general de padres"
-    folder: "src/content/perfiles/centro-padres"
-    create: false
-    delete: false
-    extension: "md"
-    format: "frontmatter"
-    summary: "{{cargo}} - {{nombre}}"
-    sortable_fields: ["orden", "cargo", "nombre"]
-    fields:
-      - label: "Categoria"
-        name: "categoria"
-        widget: "hidden"
-
-      - label: "Grupo"
-        name: "grupo"
-        widget: "hidden"
-
-      - label: "Orden"
-        name: "orden"
-        widget: "hidden"
-
-      - label: "Titulo interno"
-        name: "title"
-        widget: "hidden"
-
-      - label: "Nombre"
-        name: "nombre"
-        widget: "string"
-        required: true
-
-      - label: "Cargo"
-        name: "cargo"
-        widget: "string"
-        required: true
-
-      - label: "Foto"
-        name: "imagen"
-        widget: "image"
-        required: true
-        media_folder: "public/images/perfiles"
-        public_folder: "/images/perfiles"
-
-      - label: "Descripcion"
-        name: "descripcion"
-        widget: "hidden"
-
-  - name: "perfiles_centro_alumnos"
-    label: "Perfiles - Centro general de alumnos"
-    folder: "src/content/perfiles/centro-alumnos"
-    create: false
-    delete: false
-    extension: "md"
-    format: "frontmatter"
-    summary: "{{cargo}} - {{nombre}}"
-    sortable_fields: ["orden", "cargo", "nombre"]
+    view_groups:
+      - label: "Perfiles - Equipo directivo"
+        field: "grupo"
+        pattern: "equipo-directivo"
+      - label: "Perfiles - Centro general de padres"
+        field: "grupo"
+        pattern: "centro-padres"
+      - label: "Perfiles - Centro general de alumnos"
+        field: "grupo"
+        pattern: "centro-alumnos"
     fields:
       - label: "Categoria"
         name: "categoria"
