@@ -91,6 +91,7 @@ collections:
                 widget: "file"
                 required: true
                 choose_url: false
+                allow_multiple: false
                 media_folder: "/public/documentos"
                 public_folder: "/documentos"
 
