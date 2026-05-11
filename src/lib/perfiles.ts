@@ -1,17 +1,13 @@
-import { getCollection, type CollectionEntry } from "astro:content";
+import equipoDirectivo from "../data/perfiles/equipoDirectivo.json";
+import centroPadres from "../data/perfiles/centroPadres.json";
+import centroAlumnos from "../data/perfiles/centroAlumnos.json";
 
-export type Perfil = CollectionEntry<"perfiles">;
+const perfilesPorGrupo = {
+  "equipo-directivo": equipoDirectivo.integrantes,
+  "centro-padres": centroPadres.integrantes,
+  "centro-alumnos": centroAlumnos.integrantes
+};
 
 export async function listarPerfilesPorGrupo(grupo: string) {
-  const perfiles = await getCollection("perfiles");
-
-  return perfiles
-    .filter((perfil) => perfil.data.grupo === grupo)
-    .sort((a, b) => a.data.orden - b.data.orden)
-    .map((perfil) => ({
-      nombre: perfil.data.nombre,
-      cargo: perfil.data.cargo,
-      imagen: perfil.data.imagen,
-      descripcion: perfil.data.descripcion
-    }));
+  return perfilesPorGrupo[grupo as keyof typeof perfilesPorGrupo] ?? [];
 }

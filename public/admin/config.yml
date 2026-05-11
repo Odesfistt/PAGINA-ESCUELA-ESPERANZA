@@ -86,82 +86,112 @@ collections:
                 widget: "string"
                 required: true
 
-              - label: "Identificador"
-                name: "id"
-                widget: "string"
-                required: true
-                hint: "Usa texto simple sin espacios, por ejemplo reglamento-interno."
-
               - label: "Archivo PDF"
                 name: "href"
                 widget: "file"
                 required: true
-                media_folder: "public/documentos"
+                choose_url: false
+                media_folder: "/public/documentos"
                 public_folder: "/documentos"
 
   - name: "perfiles"
     label: "Perfiles"
-    label_singular: "Perfil"
-    folder: "src/content/perfiles"
-    create: false
-    delete: false
-    nested:
-      depth: 2
-      summary: "{{title}}"
-      subfolders: false
-    meta:
-      path:
-        widget: "string"
-        label: "Ruta"
-        index_file: "index"
-    extension: "md"
-    format: "frontmatter"
-    summary: "{{cargo}} - {{nombre}}"
-    sortable_fields: ["orden", "cargo", "nombre"]
-    view_groups:
-      - label: "Perfiles - Equipo directivo"
-        field: "grupo"
-        pattern: "equipo-directivo"
-      - label: "Perfiles - Centro general de padres"
-        field: "grupo"
-        pattern: "centro-padres"
-      - label: "Perfiles - Centro general de alumnos"
-        field: "grupo"
-        pattern: "centro-alumnos"
-    fields:
-      - label: "Categoria"
-        name: "categoria"
-        widget: "hidden"
+    files:
+      - label: "Directiva"
+        name: "equipo_directivo"
+        file: "src/data/perfiles/equipoDirectivo.json"
+        fields:
+          - label: "Perfiles"
+            name: "integrantes"
+            widget: "list"
+            allow_add: false
+            collapsed: false
+            summary: "{{fields.cargo}} - {{fields.nombre}}"
+            fields:
+              - label: "Nombre"
+                name: "nombre"
+                widget: "string"
+                required: true
 
-      - label: "Grupo"
-        name: "grupo"
-        widget: "hidden"
+              - label: "Cargo"
+                name: "cargo"
+                widget: "string"
+                required: true
 
-      - label: "Orden"
-        name: "orden"
-        widget: "hidden"
+              - label: "Foto"
+                name: "imagen"
+                widget: "image"
+                required: true
+                media_folder: "/public/images/perfiles"
+                public_folder: "/images/perfiles"
 
-      - label: "Titulo interno"
-        name: "title"
-        widget: "hidden"
+              - label: "Descripcion"
+                name: "descripcion"
+                widget: "hidden"
+                required: false
 
-      - label: "Nombre"
-        name: "nombre"
-        widget: "string"
-        required: true
+      - label: "Centro de padres"
+        name: "centro_padres"
+        file: "src/data/perfiles/centroPadres.json"
+        fields:
+          - label: "Perfiles"
+            name: "integrantes"
+            widget: "list"
+            allow_add: false
+            collapsed: false
+            summary: "{{fields.cargo}} - {{fields.nombre}}"
+            fields:
+              - label: "Nombre"
+                name: "nombre"
+                widget: "string"
+                required: true
 
-      - label: "Cargo"
-        name: "cargo"
-        widget: "string"
-        required: true
+              - label: "Cargo"
+                name: "cargo"
+                widget: "string"
+                required: true
 
-      - label: "Foto"
-        name: "imagen"
-        widget: "image"
-        required: true
-        media_folder: "public/images/perfiles"
-        public_folder: "/images/perfiles"
+              - label: "Foto"
+                name: "imagen"
+                widget: "image"
+                required: true
+                media_folder: "/public/images/perfiles"
+                public_folder: "/images/perfiles"
 
-      - label: "Descripcion"
-        name: "descripcion"
-        widget: "hidden"
+              - label: "Descripcion"
+                name: "descripcion"
+                widget: "hidden"
+                required: false
+
+      - label: "Centro de alumnos"
+        name: "centro_alumnos"
+        file: "src/data/perfiles/centroAlumnos.json"
+        fields:
+          - label: "Perfiles"
+            name: "integrantes"
+            widget: "list"
+            allow_add: false
+            collapsed: false
+            summary: "{{fields.cargo}} - {{fields.nombre}}"
+            fields:
+              - label: "Nombre"
+                name: "nombre"
+                widget: "string"
+                required: true
+
+              - label: "Cargo"
+                name: "cargo"
+                widget: "string"
+                required: true
+
+              - label: "Foto"
+                name: "imagen"
+                widget: "image"
+                required: true
+                media_folder: "/public/images/perfiles"
+                public_folder: "/images/perfiles"
+
+              - label: "Descripcion"
+                name: "descripcion"
+                widget: "hidden"
+                required: false
