@@ -455,6 +455,10 @@
   list-style: none;
 }
 
+.mobile-menu-group {
+  display: block;
+}
+
 .mobile-menu-group summary::-webkit-details-marker {
   display: none;
 }
@@ -470,9 +474,21 @@
   content: "\f077";
 }
 
-.mobile-menu-group a {
+.mobile-submenu {
+  display: grid;
+}
+
+.mobile-submenu a {
+  position: static;
+  display: flex;
+  align-items: center;
+  min-height: 48px;
   padding-left: 34px;
   background: #383838;
+  border-top: 1px solid #474747;
+  color: var(--blanco);
+  font-size: 0.88rem;
+  line-height: 1.25;
 }
 
 .mobile-menu-nav a:first-child {

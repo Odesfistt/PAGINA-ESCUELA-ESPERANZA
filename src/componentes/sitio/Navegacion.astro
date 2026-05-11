@@ -154,16 +154,17 @@ import { rutas } from "../../lib/rutas";
       item.children ? (
         <details class="mobile-menu-group">
           <summary>{item.label}</summary>
-          <a href={item.href}>{item.label}</a>
-          {item.children.map((child) => (
-            <a
-              href={child.href}
-              target={child.external ? "_blank" : undefined}
-              rel={child.external ? "noopener noreferrer" : undefined}
-            >
-              {child.label}
-            </a>
-          ))}
+          <div class="mobile-submenu">
+            {item.children.map((child) => (
+              <a
+                href={child.href}
+                target={child.external ? "_blank" : undefined}
+                rel={child.external ? "noopener noreferrer" : undefined}
+              >
+                {child.label}
+              </a>
+            ))}
+          </div>
         </details>
       ) : (
         <a href={item.href}>{item.label}</a>
