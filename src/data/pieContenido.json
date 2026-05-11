@@ -1,22 +1,22 @@
 {
   "titulo": "PIE",
   "subtitulo": "Proyecto de integracion escolar",
-  "introduccion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza.",
+  "introduccion": "Informacion oficial del Programa de Integracion Escolar en preparacion.",
   "imagenPrincipal": "/images/slide11.png",
   "secciones": [
     {
       "titulo": "Que somos?",
       "texto": [
-        "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza.",
-        "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+        "Esta seccion reunira la descripcion oficial del Programa de Integracion Escolar.",
+        "El contenido se actualizara cuando se confirme la informacion institucional definitiva."
       ],
       "imagen": "/images/slide1.png"
     },
     {
       "titulo": "Que hacemos?",
       "texto": [
-        "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza.",
-        "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+        "Aqui se presentaran las principales acciones y apoyos del equipo PIE.",
+        "El detalle oficial se incorporara cuando este disponible."
       ],
       "imagen": "/images/slide2.png"
     }
@@ -26,19 +26,19 @@
       "nombre": "Escuela Esperanza",
       "cargo": "Coordinacion PIE",
       "imagen": "/images/logo-escuela.png",
-      "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+      "descripcion": "Informacion del perfil en preparacion."
     },
     {
       "nombre": "Escuela Esperanza",
       "cargo": "Equipo profesional",
       "imagen": "/images/logo-escuela.png",
-      "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+      "descripcion": "Informacion del perfil en preparacion."
     },
     {
       "nombre": "Escuela Esperanza",
       "cargo": "Apoyo educativo",
       "imagen": "/images/logo-escuela.png",
-      "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+      "descripcion": "Informacion del perfil en preparacion."
     }
   ]
 }

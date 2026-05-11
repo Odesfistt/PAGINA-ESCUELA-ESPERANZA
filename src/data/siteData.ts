@@ -58,12 +58,13 @@ export const slides = [
 ];
 
 export const textoTemporal =
-  "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza.";
+  "Informacion oficial en preparacion. Este espacio se actualizara cuando el establecimiento confirme el contenido definitivo.";
 
 export const quienesSomosResumen = {
   titulo: "Quienes somos?",
   subtitulo: "Escuela Esperanza",
-  texto: textoTemporal,
+  texto:
+    "Somos una comunidad educativa en desarrollo permanente. Pronto incorporaremos una presentacion oficial con la historia, sello y principales caracteristicas de la escuela.",
   boton: "Leer mas",
   href: rutas.quienesSomos,
   imagen: "/images/slide2.png"
@@ -71,7 +72,11 @@ export const quienesSomosResumen = {
 
 export const quienesSomosDetalle = {
   titulo: "Escuela Esperanza",
-  texto: [textoTemporal, textoTemporal, textoTemporal],
+  texto: [
+    "La informacion institucional completa se encuentra en preparacion. Este espacio reunira la historia, identidad y principales hitos de la Escuela Esperanza.",
+    "Mientras se valida el contenido oficial, la pagina mantiene una estructura clara para presentar de forma ordenada la informacion del establecimiento.",
+    "Cuando el equipo cuente con los textos definitivos, esta seccion podra actualizarse sin cambiar el diseno general del sitio."
+  ],
   imagen: "/images/slide2.png"
 };
 
@@ -81,35 +86,50 @@ export const talleres = [
     slug: "programacion-robotica",
     href: `${rutas.talleres}programacion-robotica/`,
     imagen: "/images/slide3.png",
-    descripcion: [textoTemporal, textoTemporal]
+    descripcion: [
+      "Un espacio para explorar pensamiento logico, creatividad y tecnologia mediante desafios practicos.",
+      "La descripcion oficial del taller se incorporara cuando el establecimiento confirme horarios, responsables y objetivos."
+    ]
   },
   {
     titulo: "Taller de musica",
     slug: "musica",
     href: `${rutas.talleres}musica/`,
     imagen: "/images/slide1.png",
-    descripcion: [textoTemporal, textoTemporal]
+    descripcion: [
+      "Una instancia para acercarse al ritmo, la expresion y el trabajo colaborativo a traves de la musica.",
+      "La descripcion oficial del taller se incorporara cuando el establecimiento confirme horarios, responsables y objetivos."
+    ]
   },
   {
     titulo: "Taller de danza",
     slug: "danza",
     href: `${rutas.talleres}danza/`,
     imagen: "/images/slide2.png",
-    descripcion: [textoTemporal, textoTemporal]
+    descripcion: [
+      "Un taller pensado para potenciar movimiento, expresion corporal, disciplina y confianza.",
+      "La descripcion oficial del taller se incorporara cuando el establecimiento confirme horarios, responsables y objetivos."
+    ]
   },
   {
     titulo: "Taller de Voleibol",
     slug: "voleibol",
     href: `${rutas.talleres}voleibol/`,
     imagen: "/images/slide11.png",
-    descripcion: [textoTemporal, textoTemporal]
+    descripcion: [
+      "Una actividad deportiva para fortalecer coordinacion, companerismo y participacion activa.",
+      "La descripcion oficial del taller se incorporara cuando el establecimiento confirme horarios, responsables y objetivos."
+    ]
   },
   {
     titulo: "Taller de Futsal",
     slug: "futsal",
     href: `${rutas.talleres}futsal/`,
     imagen: "/images/slide22.png",
-    descripcion: [textoTemporal, textoTemporal]
+    descripcion: [
+      "Un taller deportivo para desarrollar habilidades, respeto por las reglas y trabajo en equipo.",
+      "La descripcion oficial del taller se incorporara cuando el establecimiento confirme horarios, responsables y objetivos."
+    ]
   }
 ];
 
@@ -137,13 +157,13 @@ export const instagramInicio = {
 export const accesosCircularesInicio = [
   {
     titulo: "Mision de la escuela",
-    texto: textoTemporal,
+    texto: "Texto oficial en preparacion. Aqui se presentara la mision institucional validada por la escuela.",
     href: "#mision",
     icono: "fa-compass"
   },
   {
     titulo: "Vision de la escuela",
-    texto: textoTemporal,
+    texto: "Texto oficial en preparacion. Aqui se presentara la vision institucional validada por la escuela.",
     href: "#vision",
     icono: "fa-eye"
   }

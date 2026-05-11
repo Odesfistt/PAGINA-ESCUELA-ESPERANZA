@@ -13,15 +13,38 @@ import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
   </section>
 
   <section class="about-page-section">
-    <div class="about-page-container">
-      <div class="about-page-content">
-        {quienesSomosDetalle.texto.map((parrafo) => (
-          <p>{parrafo}</p>
-        ))}
+    <div class="about-school-layout">
+      <div class="about-school-copy">
+        <span>Identidad institucional</span>
+        <h2>Una comunidad educativa en construccion</h2>
+        <div class="about-school-text">
+          {quienesSomosDetalle.texto.map((parrafo) => (
+            <p>{parrafo}</p>
+          ))}
+        </div>
+
+        <div class="about-school-highlights" aria-label="Aspectos institucionales">
+          <div>
+            <strong>Historia</strong>
+            <small>Contenido pendiente</small>
+          </div>
+          <div>
+            <strong>Sello educativo</strong>
+            <small>Contenido pendiente</small>
+          </div>
+          <div>
+            <strong>Comunidad</strong>
+            <small>Contenido pendiente</small>
+          </div>
+        </div>
       </div>
 
-      <div class="about-page-media">
+      <div class="about-school-media">
         <img src={quienesSomosDetalle.imagen} alt="Escuela Esperanza" />
+        <div class="about-school-note">
+          <i class="fa-solid fa-school"></i>
+          <p>Este espacio esta preparado para recibir la informacion oficial de la escuela.</p>
+        </div>
       </div>
     </div>
   </section>

@@ -7,9 +7,10 @@ interface Props {
   imagen: string;
   icono: string;
   parrafos: string[];
+  variante?: "panel" | "banda";
 }
 
-const { kicker, titulo, imagen, icono, parrafos } = Astro.props;
+const { kicker, titulo, imagen, icono, parrafos, variante = "panel" } = Astro.props;
 ---
 
 <main class="internal-page">
@@ -21,8 +22,8 @@ const { kicker, titulo, imagen, icono, parrafos } = Astro.props;
     </div>
   </section>
 
-  <section class="department-page-section">
-    <div class="department-page-container">
+  <section class:list={["department-page-section", `department-page-section--${variante}`]}>
+    <div class:list={["department-page-container", `department-page-container--${variante}`]}>
       <div class="department-page-media">
         <img src={imagen} alt={titulo} />
       </div>
@@ -33,6 +34,13 @@ const { kicker, titulo, imagen, icono, parrafos } = Astro.props;
         {parrafos.map((parrafo) => (
           <p>{parrafo}</p>
         ))}
+
+        <div class="department-mini-list">
+          <strong>Contenido pendiente de confirmacion oficial</strong>
+          <span>Descripcion del area</span>
+          <span>Equipo responsable</span>
+          <span>Acciones principales</span>
+        </div>
       </div>
     </div>
   </section>
