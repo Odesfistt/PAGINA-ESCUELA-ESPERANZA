@@ -8,7 +8,7 @@
 .internal-hero {
   background: linear-gradient(135deg, var(--verde-principal), var(--verde-oscuro));
   color: var(--blanco);
-  padding: 44px 20px 40px;
+  padding: 30px 20px 28px;
 }
 
 .internal-hero-content,
@@ -17,6 +17,11 @@
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
+}
+
+.internal-hero-content {
+  position: relative;
+  padding-right: 260px;
 }
 
 .internal-kicker {
@@ -30,7 +35,7 @@
 
 .internal-hero h1 {
   font-family: var(--fuente-titulos);
-  font-size: 3rem;
+  font-size: 2.55rem;
   line-height: 0.95;
   text-transform: uppercase;
 }
@@ -43,10 +48,13 @@
 }
 
 .internal-hero-actions {
+  position: absolute;
+  top: 0;
+  right: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 22px;
+  margin-top: 0;
 }
 
 .internal-back-button {
@@ -99,6 +107,7 @@
   line-height: 0.98;
   text-transform: uppercase;
   color: var(--verde-oscuro);
+  margin-bottom: 22px;
 }
 
 .about-page-index {
@@ -1044,12 +1053,17 @@
     font-size: 2rem;
   }
 
+  .internal-hero-content {
+    padding-right: 0;
+  }
+
   .internal-hero p {
     font-size: 0.92rem;
     line-height: 1.6;
   }
 
   .internal-hero-actions {
+    position: static;
     gap: 8px;
     margin-top: 16px;
   }
