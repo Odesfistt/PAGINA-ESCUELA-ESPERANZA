@@ -322,12 +322,12 @@
 
 .directory-card--accent-2 {
   background: var(--superficie);
-  border-left: 6px solid var(--amarillo);
+  border-left: 6px solid var(--verde-principal);
 }
 
 .directory-card--accent-2 .directory-card-icon {
-  background: var(--amarillo);
-  color: var(--verde-oscuro);
+  background: var(--verde-principal);
+  color: var(--blanco);
 }
 
 .directory-card--accent-3 {
@@ -635,7 +635,7 @@
 .department-page-container--informatica .department-page-content {
   background: var(--superficie);
   border-color: var(--borde-suave);
-  border-left-color: var(--amarillo);
+  border-left-color: var(--verde-principal);
 }
 
 .department-page-container--informatica .department-page-content h2,
@@ -644,8 +644,8 @@
 }
 
 .department-page-container--informatica .department-page-content span {
-  background: var(--amarillo);
-  color: var(--verde-oscuro);
+  background: var(--verde-principal);
+  color: var(--blanco);
 }
 
 .department-page-content span,
@@ -702,7 +702,7 @@
 }
 
 .department-page-container--informatica .department-support-card {
-  border-top-color: var(--amarillo);
+  border-top-color: var(--verde-principal);
 }
 
 .department-support-card span {

@@ -12,26 +12,26 @@
 }
 
 .brand-area {
-  width: 43%;
+  width: 35%;
   background: var(--gris-claro);
   clip-path: polygon(0 0, 100% 0, 94% 100%, 0 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px 30px;
+  padding: 22px 26px;
 }
 
 .brand-wrap {
   width: 100%;
-  max-width: 540px;
+  max-width: 430px;
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 18px;
 }
 
 .brand-wrap img {
-  width: 110px;
-  height: 110px;
+  width: 92px;
+  height: 92px;
   object-fit: contain;
 }
 
@@ -45,21 +45,21 @@
 .brand-text .line1,
 .brand-text .line2 {
   display: block;
-  font-size: 4.2rem;
+  font-size: 3.35rem;
 }
 
 .nav-area {
-  width: 57%;
+  width: 65%;
   background: var(--verde-principal);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 30px;
+  padding: 0 24px;
 }
 
 .nav-content {
   width: 100%;
-  max-width: 900px;
+  max-width: 1060px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,7 +69,7 @@
 .menu {
   list-style: none;
   display: flex;
-  gap: 16px;
+  gap: 18px;
   align-items: center;
 }
 
@@ -80,7 +80,7 @@
 .menu a,
 .scroll-nav a {
   color: var(--blanco);
-  font-size: 0.98rem;
+  font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -296,7 +296,7 @@
 .scroll-nav {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 16px;
 }
 
 .scroll-nav-item {
