@@ -2,9 +2,13 @@
 import { contactoEscuela, menu } from "../../data/siteData";
 
 const escuelaMenu = menu.find((item) => item.label === "Nuestra Escuela")?.children ?? [];
+const comunidadMenu = menu.find((item) => item.label === "Comunidad escolar")?.children ?? [];
 const documentosMenu = menu.find((item) => item.label === "Documentos oficiales");
 const enlacesSecciones = menu.filter(
-  (item) => !["Inicio", "Nuestra Escuela", "Documentos oficiales"].includes(item.label)
+  (item) =>
+    !["Inicio", "Nuestra Escuela", "Comunidad escolar", "Documentos oficiales"].includes(
+      item.label
+    )
 );
 ---
 
@@ -24,6 +28,11 @@ const enlacesSecciones = menu.filter(
     <div class="footer-column">
       <h4>Nuestra Escuela</h4>
       {escuelaMenu.map((item) => <a href={item.href}>{item.label}</a>)}
+    </div>
+
+    <div class="footer-column">
+      <h4>Comunidad escolar</h4>
+      {comunidadMenu.map((item) => <a href={item.href}>{item.label}</a>)}
     </div>
 
     <div class="footer-column">

@@ -10,7 +10,7 @@
   }
 
   .menu {
-    gap: 30px;
+    gap: 14px;
   }
 
   .hero-slider {
@@ -45,11 +45,11 @@
   }
 
   .menu {
-    gap: 22px;
+    gap: 12px;
   }
 
   .menu a {
-    font-size: 0.9rem;
+    font-size: 0.82rem;
   }
 
   .scroll-brand span {

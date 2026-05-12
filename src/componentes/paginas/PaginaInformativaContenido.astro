@@ -1,0 +1,56 @@
+---
+import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
+
+interface Bloque {
+  titulo: string;
+  texto: string;
+  icono: string;
+}
+
+interface Props {
+  kicker: string;
+  titulo: string;
+  subtitulo: string;
+  imagen: string;
+  descripcion: string[];
+  bloques: Bloque[];
+}
+
+const { kicker, titulo, subtitulo, imagen, descripcion, bloques } = Astro.props;
+---
+
+<main class="internal-page">
+  <section class="internal-hero">
+    <div class="internal-hero-content">
+      <span class="internal-kicker">{kicker}</span>
+      <h1>{titulo}</h1>
+      <AccionesPaginaInterna sectionHref="/" sectionLabel="Inicio" sectionIcon="fa-house" />
+    </div>
+  </section>
+
+  <section class="info-page-section">
+    <div class="info-page-container">
+      <article class="info-page-intro">
+        <div class="info-page-copy">
+          <span>{kicker}</span>
+          <h2>{subtitulo}</h2>
+          {descripcion.map((parrafo) => (
+            <p>{parrafo}</p>
+          ))}
+        </div>
+
+        <img src={imagen} alt={titulo} />
+      </article>
+
+      <div class="info-page-grid">
+        {bloques.map((bloque) => (
+          <article class="info-page-card">
+            <span><i class={`fa-solid ${bloque.icono}`}></i></span>
+            <h3>{bloque.titulo}</h3>
+            <p>{bloque.texto}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</main>

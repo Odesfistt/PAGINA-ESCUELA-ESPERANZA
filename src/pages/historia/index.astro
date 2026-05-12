@@ -1,0 +1,35 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import PaginaInformativaContenido from "../../componentes/paginas/PaginaInformativaContenido.astro";
+import { textoTemporal } from "../../data/siteData";
+---
+
+<MainLayout title="Historia | Escuela Esperanza">
+  <PaginaInformativaContenido
+    kicker="Nuestra Escuela"
+    titulo="Historia"
+    subtitulo="Trayectoria de la Escuela Esperanza"
+    imagen="/images/slide1.png"
+    descripcion={[
+      textoTemporal,
+      "Este espacio debe presentar los principales hitos de la escuela, su origen, crecimiento y momentos importantes para la comunidad educativa."
+    ]}
+    bloques={[
+      {
+        titulo: "Origen institucional",
+        icono: "fa-landmark",
+        texto: "Resena sobre la fundacion del establecimiento, contexto del sector y primeras etapas de funcionamiento."
+      },
+      {
+        titulo: "Hitos relevantes",
+        icono: "fa-timeline",
+        texto: "Principales cambios, logros, ampliaciones, reconocimientos o acontecimientos que marcaron a la escuela."
+      },
+      {
+        titulo: "Identidad comunitaria",
+        icono: "fa-people-group",
+        texto: "Elementos que explican como la escuela se vincula con sus estudiantes, familias y territorio."
+      }
+    ]}
+  />
+</MainLayout>

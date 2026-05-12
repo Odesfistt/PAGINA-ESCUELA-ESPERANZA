@@ -785,6 +785,104 @@
   margin-top: 12px;
 }
 
+.info-page-section {
+  padding: 70px 20px 90px;
+  background: var(--gris-muy-claro);
+}
+
+.info-page-container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  gap: 24px;
+}
+
+.info-page-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.86fr);
+  gap: 30px;
+  align-items: center;
+  padding: 32px;
+  background: var(--superficie);
+  border: 1px solid var(--borde-suave);
+  border-left: 6px solid var(--verde-principal);
+  border-radius: 8px;
+  box-shadow: 0 10px 26px var(--sombra-suave);
+}
+
+.info-page-copy span {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--verde-principal);
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.info-page-copy h2,
+.info-page-card h3 {
+  font-family: var(--fuente-titulos);
+  color: var(--verde-oscuro);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.info-page-copy h2 {
+  font-size: 2.65rem;
+  margin-bottom: 16px;
+}
+
+.info-page-copy p,
+.info-page-card p {
+  color: var(--texto);
+  line-height: 1.75;
+}
+
+.info-page-copy p + p {
+  margin-top: 12px;
+}
+
+.info-page-intro img {
+  width: 100%;
+  height: 330px;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info-page-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.info-page-card {
+  min-height: 230px;
+  padding: 24px;
+  background: var(--superficie);
+  border: 1px solid var(--borde-suave);
+  border-radius: 8px;
+  box-shadow: 0 10px 24px var(--sombra-suave);
+}
+
+.info-page-card span {
+  width: 54px;
+  height: 54px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  background: var(--verde-principal);
+  color: var(--blanco);
+  font-size: 1.35rem;
+}
+
+.info-page-card h3 {
+  font-size: 1.7rem;
+  margin-bottom: 12px;
+}
+
 .contact-page-container {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1286,7 +1384,8 @@
   .about-page-container,
   .news-page-card,
   .workshop-detail-layout,
-  .department-page-main {
+  .department-page-main,
+  .info-page-intro {
     grid-template-columns: 1fr;
   }
 
@@ -1295,7 +1394,8 @@
     .official-documents-grid,
     .contact-page-container,
     .directory-members-grid,
-    .department-support-grid {
+    .department-support-grid,
+    .info-page-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1336,7 +1436,8 @@
   .official-documents-grid,
   .contact-page-container,
   .directory-members-grid,
-  .department-support-grid {
+  .department-support-grid,
+  .info-page-grid {
     grid-template-columns: 1fr;
   }
 

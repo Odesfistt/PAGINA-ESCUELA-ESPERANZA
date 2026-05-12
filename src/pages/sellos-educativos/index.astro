@@ -1,0 +1,35 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import PaginaInformativaContenido from "../../componentes/paginas/PaginaInformativaContenido.astro";
+import { textoTemporal } from "../../data/siteData";
+---
+
+<MainLayout title="Sellos educativos | Escuela Esperanza">
+  <PaginaInformativaContenido
+    kicker="Nuestra Escuela"
+    titulo="Sellos educativos"
+    subtitulo="Principios que orientan nuestro proyecto"
+    imagen="/images/slide2.png"
+    descripcion={[
+      textoTemporal,
+      "Esta vista debe explicar los sellos que distinguen el proyecto educativo y como se expresan en la vida escolar diaria."
+    ]}
+    bloques={[
+      {
+        titulo: "Aprendizaje integral",
+        icono: "fa-seedling",
+        texto: "Descripcion del enfoque formativo, academico, emocional y social que promueve la escuela."
+      },
+      {
+        titulo: "Participacion familiar",
+        icono: "fa-house-user",
+        texto: "Rol de las familias y apoderados en el acompanamiento de los procesos escolares."
+      },
+      {
+        titulo: "Convivencia y respeto",
+        icono: "fa-handshake-angle",
+        texto: "Forma en que la comunidad fomenta buen trato, inclusion y responsabilidad compartida."
+      }
+    ]}
+  />
+</MainLayout>

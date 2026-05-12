@@ -1,0 +1,35 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import PaginaInformativaContenido from "../../componentes/paginas/PaginaInformativaContenido.astro";
+import { textoTemporal } from "../../data/siteData";
+---
+
+<MainLayout title="Convivencia escolar | Escuela Esperanza">
+  <PaginaInformativaContenido
+    kicker="Comunidad escolar"
+    titulo="Convivencia escolar"
+    subtitulo="Buen trato, cuidado y participacion"
+    imagen="/images/slide11.png"
+    descripcion={[
+      textoTemporal,
+      "Esta pagina debe reunir la informacion del equipo de convivencia, sus lineas de accion y los canales de apoyo disponibles para estudiantes y familias."
+    ]}
+    bloques={[
+      {
+        titulo: "Equipo responsable",
+        icono: "fa-user-shield",
+        texto: "Integrantes, roles y responsabilidades del equipo de convivencia escolar."
+      },
+      {
+        titulo: "Acciones preventivas",
+        icono: "fa-comments",
+        texto: "Actividades, talleres, protocolos y estrategias para fortalecer la convivencia."
+      },
+      {
+        titulo: "Canales de apoyo",
+        icono: "fa-circle-info",
+        texto: "Formas de contacto, derivacion y acompanamiento ante situaciones que requieren orientacion."
+      }
+    ]}
+  />
+</MainLayout>
