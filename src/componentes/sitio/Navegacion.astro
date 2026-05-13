@@ -6,13 +6,13 @@ import { rutas } from "../../lib/rutas";
 <header class="desktop-header">
   <div class="top-header">
     <div class="brand-area">
-      <div class="brand-wrap">
+      <a href={rutas.inicio} class="brand-wrap" aria-label="Ir al inicio">
         <img src="/images/logo-escuela.png" alt="Logo Escuela Esperanza" />
         <div class="brand-text">
           <span class="line1">Escuela</span>
           <span class="line2">Esperanza</span>
         </div>
-      </div>
+      </a>
     </div>
 
     <nav class="nav-area" aria-label="Principal">
@@ -145,9 +145,9 @@ import { rutas } from "../../lib/rutas";
 
 <aside class="mobile-menu" id="mobileMenu">
   <div class="mobile-menu-header">
-    <div class="mobile-menu-logo">
+    <a href={rutas.inicio} class="mobile-menu-logo" aria-label="Ir al inicio">
       <img src="/images/logo-escuela.png" alt="Logo de Escuela Esperanza" />
-    </div>
+    </a>
 
     <button class="close-menu-btn" id="closeMenuBtn" aria-label="Cerrar menu" type="button">
       <i class="fa-solid fa-xmark"></i>

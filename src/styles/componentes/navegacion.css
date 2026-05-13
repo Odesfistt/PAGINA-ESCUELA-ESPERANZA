@@ -27,6 +27,12 @@
   display: flex;
   align-items: center;
   gap: 18px;
+  color: inherit;
+}
+
+.brand-wrap:hover .brand-text,
+.brand-wrap:focus-visible .brand-text {
+  color: var(--verde-oscuro);
 }
 
 .brand-wrap img {
