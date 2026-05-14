@@ -601,6 +601,10 @@
   margin-top: 12px;
 }
 
+.workshop-detail-continuation {
+  grid-column: 1 / -1;
+}
+
 .workshop-key-section {
   margin-top: 28px;
 }

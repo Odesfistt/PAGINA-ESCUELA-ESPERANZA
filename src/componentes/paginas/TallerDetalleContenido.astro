@@ -8,6 +8,9 @@ interface Props {
 }
 
 const { taller } = Astro.props;
+const usaTextoContinuado = taller.slug === "programacion-robotica";
+const descripcionLateral = usaTextoContinuado ? taller.descripcion.slice(0, 2) : taller.descripcion;
+const descripcionInferior = usaTextoContinuado ? taller.descripcion.slice(2) : [];
 ---
 
 <main class="internal-page">
@@ -38,10 +41,18 @@ const { taller } = Astro.props;
           <div>
             {taller.ciclo && <span class="workshop-detail-cycle">{taller.ciclo}</span>}
             <h2>{taller.titulo}</h2>
-            {taller.descripcion.map((parrafo) => (
+            {descripcionLateral.map((parrafo) => (
               <p>{parrafo}</p>
             ))}
           </div>
+
+          {descripcionInferior.length > 0 && (
+            <div class="workshop-detail-continuation">
+              {descripcionInferior.map((parrafo) => (
+                <p>{parrafo}</p>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 

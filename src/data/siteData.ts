@@ -89,7 +89,7 @@ export const quienesSomosDetalle = {
 
 export const talleres = [
   {
-    titulo: "Taller Programacion y robotica",
+    titulo: "Taller de Programación y Robótica",
     slug: "programacion-robotica",
     href: `${rutas.talleres}programacion-robotica/`,
     imagen: "/images/slide3.png",
