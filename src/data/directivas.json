@@ -33,53 +33,57 @@
       "slug": "centro-padres",
       "integrantes": [
         {
-          "nombre": "Escuela Esperanza",
-          "cargo": "Presidencia",
+          "nombre": "JOSEFINA VILLARROEL TORRES",
+          "cargo": "Presidenta del Centro General de Padres y Apoderados",
           "imagen": "/images/logo-escuela.png",
-          "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+          "descripcion": "Nombre Presidenta del Centro General de Padres y Apoderados: JOSEFINA VILLARROEL TORRES"
         },
         {
-          "nombre": "Escuela Esperanza",
+          "nombre": "CINTHIA MORAGA",
           "cargo": "Secretaria",
           "imagen": "/images/logo-escuela.png",
-          "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+          "descripcion": "Nombre Secretaria CGPA: CINTHIA MORAGA"
         },
         {
-          "nombre": "Escuela Esperanza",
-          "cargo": "Tesoreria",
+          "nombre": "PAOLA MONTIEL GUTIERREZ",
+          "cargo": "Tesorera del Centro General de Padres y Apoderados",
           "imagen": "/images/logo-escuela.png",
-          "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+          "descripcion": "Nombre Tesorera del Centro General de Padres y Apoderados: PAOLA MONTIEL GUTIERREZ"
         }
       ],
       "descripcion": [
-        "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+        "CGPA",
+        "2.7.2.- CENTRO GENERAL PADRES Y APODERADOS",
+        "Los Centros de Padres y Apoderados son organismos que comparten y colaboran en los propósitos educativos y sociales de los establecimientos educacionales de que forman parte.",
+        "Los Centros de Padres orientarán sus acciones con plena observancia de las atribuciones técnico-pedagógicas que competen exclusivamente al establecimiento, promoverán la solidaridad, la cohesión grupal entre sus miembros, apoyarán organizadamente las labores educativas del establecimiento y, estimularán el desarrollo y progreso del conjunto de la comunidad escolar. (Art. 1° Decreto N° 565 del año 1990 del Ministerio de Educación, que aprueba reglamento general de centros de padres y apoderados para los establecimientos educacionales reconocidos oficialmente por el ministerio de educación).",
+        "A.- FUNCIONES",
+        "Establecidos en el artículo 2° del Decreto 565 del año 1990 del Mineduc.",
+        "B.- FUNCIONAMIENTO Y ORGANIZACIÓN",
+        "Establecidos en el artículo 3° y siguientes del Decreto 565 del año 1990 del Mineduc.",
+        "C.- DEBERES",
+        "1.- Los Centros de Padres orientarán sus acciones con plena observancia de las atribuciones técnico-pedagógicas que competen exclusivamente al establecimiento.",
+        "2.- Prohibición de efectuar cobro alguno a los apoderados, pudiendo solicitar sólo aportes voluntarios. No se podrá negar la matrícula a ningún alumno, ni excluirlo de la asistencia a clase, por el hecho de no realizar aporte al Centro de Padres y Apoderado."
       ]
     },
     {
-      "titulo": "Centro de Alumnos (CEAL)",
+      "titulo": "Centro de Alumnos",
       "slug": "centro-alumnos",
-      "integrantes": [
-        {
-          "nombre": "Escuela Esperanza",
-          "cargo": "Presidencia",
-          "imagen": "/images/logo-escuela.png",
-          "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
-        },
-        {
-          "nombre": "Escuela Esperanza",
-          "cargo": "Secretaria",
-          "imagen": "/images/logo-escuela.png",
-          "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
-        },
-        {
-          "nombre": "Escuela Esperanza",
-          "cargo": "Delegacion",
-          "imagen": "/images/logo-escuela.png",
-          "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
-        }
-      ],
+      "integrantes": [],
       "descripcion": [
-        "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+        "2.7.3.-CENTRO GENERAL DE ALUMNOS",
+        "El Centro de Alumnos es la organización formada por los estudiantes de segundo ciclo de enseñanza básica y enseñanza media, de cada establecimiento educacional.",
+        "Su finalidad es servir a sus miembros como medio de desarrollar en ellos el pensamiento reflexivo, el juicio crítico y la voluntad de acción; de formarlos para la vida democrática, y de prepararlos para participar en los cambios culturales y sociales.",
+        "En ningún establecimiento se podrá negar la constitución y funcionamiento de un Centro de Alumnos (Art. 1° Decreto 524 año 1990, reformulado por Decreto 50 año 2006 del Mineduc).",
+        "A.- FUNCIONES",
+        "Las funciones del Centro de Alumnos son las siguientes:",
+        "1.- Promover la creación e incremento de oportunidades para que los alumnos manifiesten democrática y organizadamente sus intereses, inquietudes y aspiraciones.",
+        "2.- Promover en el alumnado la mayor dedicación a su trabajo escolar, procurando que se desarrolle y fortalezca un adecuado ambiente educativo y una estrecha relación humana entre sus integrantes basada en el respeto mutuo.",
+        "3.- Orientar sus organismos y actividades hacia la consecución de las finalidades establecidas en el presente decreto.",
+        "4.- Representar los problemas, necesidades y aspiraciones de sus miembros ante el Consejo Escolar, las autoridades u organismos que corresponda.",
+        "5.- Procurar el bienestar de sus miembros, tendiendo a establecer las condiciones deseables para su pleno desarrollo.",
+        "6.- Promover el ejercicio de los derechos estudiantiles y de los derechos humanos universales a través de sus organismos, programas de trabajo y relaciones interpersonales.",
+        "7.- Designar sus representantes ante las organizaciones estudiantiles con las cuales el Centro se relacione de acuerdo con su Reglamento (Art. 1° Decreto 524 año 1990, reformulado por Decreto 50 año 2006 del Mineduc).",
+        "8.- El Decreto 524 del año 1990 regula las funciones del Centro de Alumnos, su funcionamiento y orgánica."
       ]
     }
   ]

@@ -1,22 +1,22 @@
 {
   "integrantes": [
     {
-      "nombre": "Escuela Esperanza",
-      "cargo": "Presidencia",
+      "nombre": "JOSEFINA VILLARROEL TORRES",
+      "cargo": "Presidenta del Centro General de Padres y Apoderados",
       "imagen": "/images/logo-escuela.png",
-      "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+      "descripcion": "Nombre Presidenta del Centro General de Padres y Apoderados: JOSEFINA VILLARROEL TORRES"
     },
     {
-      "nombre": "Escuela Esperanza",
+      "nombre": "CINTHIA MORAGA",
       "cargo": "Secretaria",
       "imagen": "/images/logo-escuela.png",
-      "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+      "descripcion": "Nombre Secretaria CGPA: CINTHIA MORAGA"
     },
     {
-      "nombre": "Escuela Esperanza",
-      "cargo": "Tesoreria",
+      "nombre": "PAOLA MONTIEL GUTIERREZ",
+      "cargo": "Tesorera del Centro General de Padres y Apoderados",
       "imagen": "/images/logo-escuela.png",
-      "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+      "descripcion": "Nombre Tesorera del Centro General de Padres y Apoderados: PAOLA MONTIEL GUTIERREZ"
     }
   ]
 }
