@@ -1,5 +1,6 @@
 ---
 import { talleres } from "../../data/siteData";
+import { rutas } from "../../lib/rutas";
 import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
 import NavegacionSecciones from "./NavegacionSecciones.astro";
 
@@ -9,6 +10,7 @@ interface Props {
 
 const { taller } = Astro.props;
 const usaTextoContinuado = taller.slug === "programacion-robotica";
+const sinInformacion = "sinInformacion" in taller && taller.sinInformacion;
 const descripcionLateral = usaTextoContinuado ? taller.descripcion.slice(0, 2) : taller.descripcion;
 const descripcionInferior = usaTextoContinuado ? taller.descripcion.slice(2) : [];
 ---
@@ -44,6 +46,13 @@ const descripcionInferior = usaTextoContinuado ? taller.descripcion.slice(2) : [
             {descripcionLateral.map((parrafo) => (
               <p>{parrafo}</p>
             ))}
+
+            {sinInformacion && (
+              <a class="workshop-contact-button" href={rutas.contacto}>
+                <i class="fa-solid fa-envelope"></i>
+                Contacto
+              </a>
+            )}
           </div>
 
           {descripcionInferior.length > 0 && (

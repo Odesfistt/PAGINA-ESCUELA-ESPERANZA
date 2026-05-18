@@ -1,35 +1,109 @@
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
-import PaginaInformativaContenido from "../../componentes/paginas/PaginaInformativaContenido.astro";
-import { textoTemporal } from "../../data/siteData";
+
+const orientacionParrafos = [
+  "El Departamento de Orientación de la escuela Esperanza está conformado por una Orientadora y dos Sicólogos, quienes tiene como principal función acompañar de manera integral a los estudiantes, promoviendo su bienestar emocional, social y formativo.",
+  "El trabajo se entrelaza con el que realiza el Departamento de Convivencia Escolar, conformado por la Encargada de Convivencia y una dupla Sicosocial.",
+  "El objetivo principal es generar espacios de apoyo, escucha y contención, favoreciendo el desarrollo personal y la sana convivencia escolar.",
+  "Entre sus principales funciones se encuentra la atención y seguimiento de estudiantes que presentan dificultades emocionales, conductuales, sociales o de adaptación escolar, trabajando de manera coordinada con docentes, asistentes de la educación y padres de familia.",
+  "Asimismo, se desarrollan talleres, actividades preventivas y formativas relacionadas con habilidades socioemocionales, resolución pacífica de conflictos, convivencia escolar, autocuidado, prevención del ciberacoso y fortalecimiento de vínculos saludables entre pares e integrantes de la familia, manteniendo una comunicación constante y promoviendo el trabajo colaborativo entre escuela y hogar.",
+  "El Departamento de Orientación también orienta a los estudiantes en aspectos académicos y vocacionales, apoyándolos en la toma de decisiones principalmente a la hora de elegir el tipo de establecimiento educacional de continuidad al que les gustaría llegar, teniendo en consideración una proyección futura profesional.",
+  "A través de talleres, entrevistas, mediaciones y acompañamiento permanente, el Departamento de Orientación busca contribuir a la formación integral de estudiantes más seguros, respetuosos, empáticos y preparados para enfrentar los desafíos de la vida escolar y personal."
+];
+
+const convivenciaParrafos = [
+  "El Equipo de Convivencia Educativa tiene como misión crear las condiciones para que niños, niñas, adolescentes, jóvenes y adultos aprendan a convivir cada vez mejor, que comprendan y construyan la convivencia desde la capacidad de mirar a cada persona como sujetos de derechos partícipes de la cotidianeidad de la convivencia educativa, enfatizando su sentido formativo, aprendiendo a resolver sus conflictos y diferencias de manera pacífica y desarrollar contextos de aprendizaje basados en el cuidado y la inclusión.",
+  "El Equipo de Convivencia Educativa de nuestro establecimiento está conformado por:",
+  "Equipo de Convivencia Educativa Escuela Esperanza",
+  "Encargada Convivencia Escolar: Leontina Cáceres Pineda",
+  "Psicólogo: Francisco González San Martín",
+  "Asistente Social: Alejandra Moris Moyano",
+  "Nuestra principal responsabilidad será la de estimular y canalizar la participación de la Comunidad Educativa, tomando las medidas que permitan fomentar una buena Convivencia Escolar, dentro del ámbito de su competencia.",
+  "Este Equipo tendrá reuniones periódicas para analizar su funcionamiento y el curso de las acciones enmarcadas en el Plan de Gestión de Convivencia Educativa."
+];
+
+const funcionesConvivencia = [
+  "A. Planificar acciones, medidas y estrategias que fortalezcan la Convivencia Escolar en el establecimiento.",
+  "B. Promover acciones, medidas y estrategias orientadas a prevenir la violencia entre los miembros de la comunidad educativa.",
+  "C. Elaborar un Plan de Acción para promover la buena convivencia y prevenir la violencia en el establecimiento (Consejo Escolar, Encargada de Convivencia Educativa, Dupla psicosocial y Dpto. de Orientación).",
+  "D. Participar en la elaboración y actualización del Reglamento Interno de Convivencia Educativa, de acuerdo al criterio formativo planteado en la Política Nacional de Convivencia Escolar y a los lineamientos del Proyecto Educativo de la escuela.",
+  "E. En el caso de una denuncia, deberá tomar los antecedentes y seguir los procedimientos establecidos por el Protocolo del Reglamento Interno de Convivencia Educativa.",
+  "F. Fomentar habilidades sociales y comunicacionales en los estudiantes y/o apoderados atendidos, que les permitan desarrollarse de forma integral en diversos contextos."
+];
 ---
 
-<MainLayout title="Convivencia escolar | Escuela Esperanza">
-  <PaginaInformativaContenido
-    kicker="Comunidad escolar"
-    titulo="Convivencia escolar"
-    subtitulo="Buen trato, cuidado y participacion"
-    imagen="/images/slide4.jpeg"
-    descripcion={[
-      textoTemporal,
-      "Esta pagina debe reunir la informacion del equipo de convivencia, sus lineas de accion y los canales de apoyo disponibles para estudiantes y familias."
-    ]}
-    bloques={[
-      {
-        titulo: "Equipo responsable",
-        icono: "fa-user-shield",
-        texto: "Integrantes, roles y responsabilidades del equipo de convivencia escolar."
-      },
-      {
-        titulo: "Acciones preventivas",
-        icono: "fa-comments",
-        texto: "Actividades, talleres, protocolos y estrategias para fortalecer la convivencia."
-      },
-      {
-        titulo: "Canales de apoyo",
-        icono: "fa-circle-info",
-        texto: "Formas de contacto, derivacion y acompanamiento ante situaciones que requieren orientacion."
-      }
-    ]}
-  />
+<MainLayout title="Orientacion y convivencia escolar | Escuela Esperanza">
+  <main class="internal-page">
+    <section class="internal-hero">
+      <div class="internal-hero-content">
+        <span class="internal-kicker">Comunidad escolar</span>
+        <h1>Orientacion y convivencia escolar</h1>
+      </div>
+    </section>
+
+    <section class="guidance-page-section">
+      <div class="guidance-page-container">
+        <nav class="guidance-page-tabs" aria-label="Secciones de orientacion y convivencia">
+          <a href="#orientacion">
+            <i class="fa-solid fa-compass"></i>
+            Orientacion
+          </a>
+          <a href="#convivencia">
+            <i class="fa-solid fa-people-group"></i>
+            Convivencia educativa
+          </a>
+        </nav>
+
+        <article class="guidance-intro-card">
+          <img src="/images/slide6.jpeg" alt="Departamento de Orientacion y Convivencia Escolar" />
+          <div>
+            <span>Trabajo colaborativo</span>
+            <h2>Orientacion y Convivencia Escolar</h2>
+            <p>{orientacionParrafos[1]}</p>
+          </div>
+        </article>
+
+        <section class="guidance-content-block" id="orientacion">
+          <div class="guidance-heading">
+            <span><i class="fa-solid fa-compass"></i></span>
+            <div>
+              <p>Reseña del departamento de orientación</p>
+              <h2>Departamento de Orientación</h2>
+            </div>
+          </div>
+
+          <div class="guidance-text-flow">
+            {orientacionParrafos.map((parrafo) => (
+              <p>{parrafo}</p>
+            ))}
+          </div>
+        </section>
+
+        <section class="guidance-content-block" id="convivencia">
+          <div class="guidance-heading">
+            <span><i class="fa-solid fa-people-group"></i></span>
+            <div>
+              <p>Reseña de Convivencia</p>
+              <h2>Equipo de Convivencia Educativa</h2>
+            </div>
+          </div>
+
+          <div class="guidance-text-flow">
+            {convivenciaParrafos.map((parrafo) => (
+              <p>{parrafo}</p>
+            ))}
+          </div>
+
+          <div class="guidance-functions">
+            <h3>FUNCIONES EQUIPO DE CONVIVENCIA EDUCATIVA</h3>
+            <ul>
+              {funcionesConvivencia.map((funcion) => (
+                <li>{funcion}</li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
 </MainLayout>

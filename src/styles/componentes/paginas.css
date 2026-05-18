@@ -398,9 +398,33 @@
   -webkit-box-orient: vertical;
 }
 
-.workshop-card--link i {
+.workshop-card-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   align-self: flex-end;
   color: var(--verde-principal);
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.workshop-contact-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  margin-top: 22px;
+  padding: 12px 18px;
+  background: var(--verde-principal);
+  color: var(--blanco);
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.workshop-contact-button:hover {
+  background: var(--verde-oscuro);
 }
 
 .workshop-card-cycle,
@@ -813,6 +837,155 @@
   color: var(--texto);
   font-size: 0.94rem;
   line-height: 1.65;
+}
+
+.guidance-page-section {
+  padding: 70px 20px 90px;
+  background: var(--gris-muy-claro);
+}
+
+.guidance-page-container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  gap: 26px;
+}
+
+.guidance-page-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.guidance-page-tabs a {
+  min-height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 18px;
+  background: var(--superficie);
+  border: 1px solid var(--borde-suave);
+  color: var(--verde-oscuro);
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px var(--sombra-suave);
+}
+
+.guidance-page-tabs a:hover {
+  background: var(--verde-principal);
+  color: var(--blanco);
+}
+
+.guidance-intro-card {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.9fr) minmax(0, 1.1fr);
+  gap: 28px;
+  align-items: center;
+  padding: 28px;
+  background: var(--superficie);
+  border: 1px solid var(--borde-suave);
+  border-left: 6px solid var(--verde-principal);
+  border-radius: 8px;
+  box-shadow: 0 10px 26px var(--sombra-suave);
+}
+
+.guidance-intro-card img {
+  width: 100%;
+  height: 320px;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.guidance-intro-card span,
+.guidance-heading p {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--verde-principal);
+  font-size: 0.86rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.guidance-intro-card h2,
+.guidance-heading h2 {
+  font-family: var(--fuente-titulos);
+  color: var(--verde-oscuro);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.guidance-intro-card h2 {
+  margin-bottom: 16px;
+  font-size: 2.45rem;
+}
+
+.guidance-intro-card p,
+.guidance-text-flow p,
+.guidance-functions li {
+  color: var(--texto);
+  line-height: 1.75;
+}
+
+.guidance-content-block {
+  padding: 30px;
+  background: var(--superficie);
+  border: 1px solid var(--borde-suave);
+  border-radius: 8px;
+  box-shadow: 0 10px 26px var(--sombra-suave);
+  scroll-margin-top: 24px;
+}
+
+.guidance-heading {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.guidance-heading > span {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--verde-principal);
+  color: var(--blanco);
+  font-size: 1.15rem;
+}
+
+.guidance-heading h2 {
+  font-size: 2.15rem;
+}
+
+.guidance-text-flow p + p {
+  margin-top: 12px;
+}
+
+.guidance-functions {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.guidance-functions h3 {
+  margin-bottom: 16px;
+  font-family: var(--fuente-titulos);
+  color: var(--verde-oscuro);
+  font-size: 1.55rem;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.guidance-functions ul {
+  display: grid;
+  gap: 12px;
+  padding-left: 20px;
 }
 
 .mission-page-section {
@@ -1781,6 +1954,7 @@
   .news-page-card,
   .workshop-detail-layout,
   .department-page-main,
+  .guidance-intro-card,
   .info-page-intro {
     grid-template-columns: 1fr;
   }
@@ -1839,7 +2013,8 @@
     grid-template-columns: 1fr;
   }
 
-  .section-switcher {
+  .section-switcher,
+  .guidance-page-tabs {
     grid-template-columns: 1fr;
     gap: 8px;
     margin-bottom: 30px;

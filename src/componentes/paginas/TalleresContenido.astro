@@ -29,7 +29,10 @@ import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
             {taller.ciclo && <span class="workshop-card-cycle">{taller.ciclo}</span>}
             <h2>{taller.titulo}</h2>
             <p>{taller.descripcion[0]}</p>
-            <i class="fa-solid fa-arrow-right"></i>
+            <span class="workshop-card-action">
+              {"sinInformacion" in taller && taller.sinInformacion ? "Contacto" : "Ver taller"}
+              <i class={`fa-solid ${"sinInformacion" in taller && taller.sinInformacion ? "fa-envelope" : "fa-arrow-right"}`}></i>
+            </span>
           </a>
         ))}
       </div>

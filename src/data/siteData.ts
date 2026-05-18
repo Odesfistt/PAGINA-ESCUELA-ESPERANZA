@@ -23,8 +23,7 @@ export const menu = [
       { label: "Centro General de Padres y Apoderados (CGPA)", href: `${rutas.directivas}centro-padres/` },
       { label: "Centro de Estudiantes", href: `${rutas.directivas}centro-alumnos/` },
       { label: "Programa de Integracion Escolar (PIE)", href: rutas.pie },
-      { label: "Convivencia escolar", href: rutas.convivenciaEscolar },
-      { label: "Departamento de orientacion", href: rutas.orientacion },
+      { label: "Orientacion y convivencia escolar", href: rutas.convivenciaEscolar },
       { label: "Departamento de informatica", href: rutas.informatica }
     ]
   },
@@ -78,7 +77,7 @@ export const quienesSomosResumen = {
   texto: textoTemporal,
   boton: "Leer mas",
   href: rutas.quienesSomos,
-  imagen: "/images/slide4.jpeg"
+  imagen: "/images/slide8.jpeg"
 };
 
 export const quienesSomosDetalle = {
@@ -141,8 +140,11 @@ export const talleres = [
     titulo: "Taller de danza",
     slug: "danza",
     href: `${rutas.talleres}danza/`,
-    imagen: "/images/slide4.jpeg",
-    descripcion: [textoTemporal, textoTemporal]
+    imagen: "/images/slide3.png",
+    descripcion: [
+      "Aun no se cuenta con informacion oficial sobre este taller. Agradecemos su comprension y le invitamos a contactarse con nosotros ante cualquier duda o consulta."
+    ],
+    sinInformacion: true
   },
   {
     titulo: "Taller de Voleibol",
