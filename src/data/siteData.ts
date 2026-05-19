@@ -23,7 +23,7 @@ export const menu = [
       { label: "Centro General de Padres y Apoderados (CGPA)", href: `${rutas.directivas}centro-padres/` },
       { label: "Centro de Estudiantes", href: `${rutas.directivas}centro-alumnos/` },
       { label: "Programa de Integracion Escolar (PIE)", href: rutas.pie },
-      { label: "Orientacion y convivencia escolar", href: rutas.convivenciaEscolar },
+      { label: "Orientación y convivencia escolar", href: rutas.convivenciaEscolar },
       { label: "Departamento de informatica", href: rutas.informatica }
     ]
   },
