@@ -68,13 +68,13 @@ export const slides = [
   }
 ];
 
-export const textoTemporal =
-  "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela hola juan.";
+
 
 export const quienesSomosResumen = {
   titulo: "Quienes somos?",
   subtitulo: "Escuela Esperanza",
-  texto: textoTemporal,
+  texto: "La Escuela Esperanza es un establecimiento educacional municipal ubicado en la ciudad de Talca 
+          "orientado a brindar una educación inclusiva y de calidad a niños y niñas de enseñanza básica y parvularia".
   boton: "Leer mas",
   href: rutas.quienesSomos,
   imagen: "/images/slide8.jpeg"
@@ -82,7 +82,9 @@ export const quienesSomosResumen = {
 
 export const quienesSomosDetalle = {
   titulo: "Escuela Esperanza",
-  texto: [textoTemporal, textoTemporal, textoTemporal],
+  texto:  "La escuela destaca por su compromiso con el desarrollo integral de sus estudiantes", 
+          "promoviendo valores como el respeto, la solidaridad y la participación comunitaria. Además, 
+          "cuenta con programas de apoyo educativo e integración escolar para atender diversas necesidades de aprendizaje.,
   imagen: "/images/slide7.jpeg"
 };
 
