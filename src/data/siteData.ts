@@ -69,7 +69,7 @@ export const slides = [
 ];
 
 export const textoTemporal =
-  "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza.";
+  "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela hola juan.";
 
 export const quienesSomosResumen = {
   titulo: "Quienes somos?",
