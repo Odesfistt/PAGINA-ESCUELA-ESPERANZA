@@ -1,6 +1,9 @@
 ---
-import { documentosOficiales, textoTemporal } from "../../data/siteData";
+import { documentosOficiales } from "../../data/siteData";
 import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
+
+const descripcionDocumentos =
+  "En esta seccion se reunen los documentos oficiales disponibles para consulta y descarga de la comunidad educativa.";
 ---
 
 <main class="internal-page">
@@ -19,7 +22,7 @@ import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
           <span>Archivo institucional</span>
           <h2>Material disponible para la comunidad</h2>
         </div>
-        <p>{textoTemporal}</p>
+        <p>{descripcionDocumentos}</p>
       </section>
 
       {

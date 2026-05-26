@@ -80,7 +80,11 @@ export const quienesSomosResumen = {
 
 export const quienesSomosDetalle = {
   titulo: "Escuela Esperanza",
-  texto:   "La Escuela Esperanza es un establecimiento educacional municipal ubicado en la ciudad de Talca, orientado a brindar una educación inclusiva y de calidad a niños y niñas de enseñanza básica y parvularia. La escuela destaca por su compromiso con el desarrollo integral de sus estudiantes, promoviendo valores como el respeto, la solidaridad y la participación comunitaria. Además, cuenta con programas de apoyo educativo e integración escolar para atender diversas necesidades de aprendizaje.",
+  texto: [
+    "La Escuela Esperanza es un establecimiento educacional municipal ubicado en la ciudad de Talca, orientado a brindar una educación inclusiva y de calidad a niños y niñas de enseñanza básica y parvularia.",
+    "La escuela destaca por su compromiso con el desarrollo integral de sus estudiantes, promoviendo valores como el respeto, la solidaridad y la participación comunitaria.",
+    "Además, cuenta con programas de apoyo educativo e integración escolar para atender diversas necesidades de aprendizaje."
+  ],
   imagen: "/images/slide7.jpeg"
 };
 
