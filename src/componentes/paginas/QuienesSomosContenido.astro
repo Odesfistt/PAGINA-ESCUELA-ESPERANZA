@@ -18,18 +18,14 @@ import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
         <h2>Quienes somos</h2>
 
         <div class="about-flow-top">
-          <div>
-            {quienesSomosDetalle.texto.slice(0, 2).map((parrafo) => (
+          <div class="about-flow-copy">
+            {quienesSomosDetalle.texto.map((parrafo) => (
               <p>{parrafo}</p>
             ))}
           </div>
 
           <img src={quienesSomosDetalle.imagen} alt="Escuela Esperanza" />
         </div>
-
-        {quienesSomosDetalle.texto.slice(2).map((parrafo) => (
-          <p>{parrafo}</p>
-        ))}
       </div>
     </div>
   </section>

@@ -254,8 +254,12 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
   gap: 30px;
-  align-items: start;
+  align-items: center;
   margin-bottom: 4px;
+}
+
+.about-flow-copy p:last-child {
+  margin-bottom: 0;
 }
 
 .about-flow-top img {
