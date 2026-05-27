@@ -205,7 +205,7 @@ export const contactoEscuela = {
   correo: "escuelaesperanza@daemtalca.cl",
   correoHref: "mailto:escuelaesperanza@daemtalca.cl",
   horario: "Lunes a jueves: 08:30 - 17:30 hrs · Viernes: 08:30 - 14:00 hrs",
-  direccion: "Calle 9 Nte. S/N, Talca, Chile",
+  direccion: "Calle 9 Nte. 15 y 16 Oriente S/N, Talca, Chile",
   mapaSrc:
     "https://www.google.com/maps?q=Calle%209%20Nte.%202274%2C%20Talca%2C%20Chile&output=embed"
 };
