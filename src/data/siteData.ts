@@ -282,27 +282,27 @@ export const sellosEducativosDetalle = {
       titulo: "Educación Integral",
       icono: "fa-people-group",
       texto:
-        "superación académica a partir de una educación inclusiva, integral y participativa."
+        "Superación académica a partir de una educación inclusiva, integral y participativa."
     },
     {
       numero: "2",
       titulo: "Autonomía y Responsabilidad",
       icono: "fa-person-chalkboard",
       texto:
-        "promoción y desarrollo de la autonomía y responsabilidad de la comunidad educativa, para mejorar la calidad de la educación que impartimos."
+        "Promoción y desarrollo de la autonomía y responsabilidad de la comunidad educativa, para mejorar la calidad de la educación que impartimos."
     },
     {
       numero: "3",
       titulo: "Educación Medioambiental",
       icono: "fa-leaf",
-      texto: "educación para el desarrollo de la conciencia ambiental."
+      texto: "Educación para el desarrollo de la conciencia ambiental."
     },
     {
       numero: "4",
       titulo: "Idioma Inglés",
       icono: "fa-language",
       texto:
-        "adquisición de herramientas idiomáticas básicas por parte de los estudiantes de nuestra escuela como parte de su formación personal y posteriormente profesional y laboral."
+        "Adquisición de herramientas idiomáticas básicas por parte de los estudiantes de nuestra escuela como parte de su formación personal y posteriormente profesional y laboral."
     }
   ]
 };
