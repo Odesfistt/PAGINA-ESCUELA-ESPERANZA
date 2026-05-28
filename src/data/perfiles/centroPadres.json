@@ -4,13 +4,16 @@
       "nombre": "JOSEFINA VILLARROEL TORRES",
       "cargo": "Presidenta del Centro General de Padres y Apoderados",
       "imagen": "/images/perfiles/sra.-josefina-villarroel.jpeg",
-      "descripcion": "Principales Funciones"
+      "descripcion" : "Representar a los padres y apoderados ante la comunidad educativa.",
+      "descripcion2": "Promover la participación y colaboración de las familias en la escuela.",
+      "descripcion3": "Coordinar actividades y apoyar iniciativas en beneficio de los estudiantes."
     },
     {
       "nombre": "CINTHIA MORAGA",
       "cargo": "Secretaria",
       "imagen": "/images/perfiles/sra.-cinthia-moraga.jpeg",
-      "descripcion": "Principales Funciones"
+      "descripcion":  "texto."
+      
     },
     {
       "nombre": "PAOLA MONTIEL GUTIERREZ",
