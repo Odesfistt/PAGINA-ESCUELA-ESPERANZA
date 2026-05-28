@@ -4,21 +4,21 @@
       "nombre": "JOSEFINA VILLARROEL TORRES",
       "cargo": "Presidenta del Centro General de Padres y Apoderados",
       "imagen": "/images/perfiles/sra.-josefina-villarroel.jpeg",
-      "descripcion" :"Representar a los padres y apoderados ante la comunidad educativa. Promover la participación y colaboración de las familias en la escuela Coordinar actividades y apoyar iniciativas en beneficio de los estudiantes"
+      "descripcion" :"La Presidenta del Centro General de Padres y Apoderados representa a las familias ante la comunidad educativa, lidera y coordina las actividades de la directiva, promueve la participación de los apoderados y apoya iniciativas orientadas al bienestar y desarrollo de los estudiantes."
      
     },
     {
       "nombre": "CINTHIA MORAGA",
-      "cargo": "Secretaria",
+      "cargo": "Secretaria del Centro General de Padres y Apoderados",
       "imagen": "/images/perfiles/sra.-cinthia-moraga.jpeg",
-      "descripcion":  "texto."
+      "descripcion":"La Secretaria del Centro General de Padres y Apoderados se encarga de organizar y registrar las reuniones, redactar actas, mantener la documentación actualizada y apoyar la comunicación entre la directiva, los apoderados y la comunidad educativa."
       
     },
     {
       "nombre": "PAOLA MONTIEL GUTIERREZ",
       "cargo": "Tesorera del Centro General de Padres y Apoderados",
       "imagen": "/images/perfiles/sra.-paola-montiel.jpeg",
-      "descripcion": "Principales Funciones"
+      "descripcion":"La Tesorera del Centro General de Padres y Apoderados es responsable de administrar los recursos económicos, llevar el control de ingresos y gastos, organizar balances financieros y velar por el uso transparente de los fondos en beneficio de la comunidad educativa."
     }
   ]
 }
