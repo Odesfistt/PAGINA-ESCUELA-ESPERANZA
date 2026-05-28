@@ -7,19 +7,19 @@ interface Props {
   imagen: string;
   icono: string;
   parrafos: string[];
-  variante?: "orientacion" | "informatica";
   tarjetas?: {
-  titulo: string;
-  icono:  string;
-  texto:  string;
+    titulo: string;
+    icono: string;
+    texto: string;
   }[];
+  variante?: "orientacion" | "informatica";
 }
 
 const { kicker, titulo, imagen, icono, parrafos, variante = "orientacion" } = Astro.props;
 const seccionesApoyo = [
-  { titulo: "Espacio de apoyo", icono: "fa-hand-holding-heart" },
-  { titulo: "Acompañamiento", icono: "fa-people-group" },
-  { titulo: "Educación digital", icono: "fa-clipboard-list" },
+  { titulo: "Espacio de apoyo", icono: "fa-hand-holding-heart" , texto: "Ayuda tecnológica y orientación digital para estudiantes y docentes." },
+  { titulo: "Acompañamiento", icono: "fa-people-group" , texto: "Apoyo constante en el aprendizaje de herramientas informáticas y proyectos tecnológicos." },
+  { titulo: "Informacion del departamento", icono: "fa-clipboard-list" , texto: "Información detallada sobre las actividades y programas del departamento." }
 ];
 ---
 
@@ -53,7 +53,7 @@ const seccionesApoyo = [
           <article class="department-support-card">
             <span><i class={`fa-solid ${seccion.icono}`}></i></span>
             <h3>{seccion.titulo}</h3>
-            <p>{parrafos[0]}</p>
+            <p>{seccion.texto}</p>
           </article>
         ))}
       </div>
