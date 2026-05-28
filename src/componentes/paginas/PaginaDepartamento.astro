@@ -7,6 +7,11 @@ interface Props {
   imagen: string;
   icono: string;
   parrafos: string[];
+  tarjetas?: {
+    titulo: string;
+    icono: string;
+    texto: string;
+  }[];
   variante?: "orientacion" | "informatica";
 }
 
@@ -48,7 +53,7 @@ const seccionesApoyo = [
           <article class="department-support-card">
             <span><i class={`fa-solid ${seccion.icono}`}></i></span>
             <h3>{seccion.titulo}</h3>
-            <p>{parrafos[0]}</p>
+            <p>{seccion.texto}</p>
           </article>
         ))}
       </div>
