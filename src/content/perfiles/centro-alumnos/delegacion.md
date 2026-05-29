@@ -1,6 +1,6 @@
 ---
 title: "Tesorera"
-categoria: "Directiva - Centro de Estudiantes"
+categoria: "Directiva - Centro de Estudiantes (CGA)"
 grupo: "centro-alumnos"
 orden: 3
 nombre: "Isabella Torres Torres"
