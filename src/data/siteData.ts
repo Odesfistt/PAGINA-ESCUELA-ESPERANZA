@@ -11,7 +11,7 @@ export const menu = [
     children: [
       { label: "Quienes somos", href: rutas.quienesSomos },
       { label: "Historia", href: rutas.historia },
-      { label: "Mision y vision", href: rutas.misionVision },
+      { label: "Misión y Visión", href: rutas.misionVision },
       { label: "Sellos educativos", href: rutas.sellosEducativos }
     ]
   },
@@ -201,13 +201,12 @@ export const documentosOficiales = documentosOficialesData.documentos;
 
 export const contactoEscuela = {
   telefono: "(71) 224 4049",
-  telefonoHref: "tel:+56712244049",
+  telefonoHref: "tel:71 2 244049",
   correo: "escuelaesperanza@daemtalca.cl",
   correoHref: "mailto:escuelaesperanza@daemtalca.cl",
   horario: "Lunes a jueves: 08:30 - 17:30 hrs · Viernes: 08:30 - 14:00 hrs",
   direccion: "Calle 9 Nte. 15 y 16 Oriente S/N, Talca, Chile",
-  mapaSrc:
-    "https://www.google.com/maps?q=Calle%209%20Nte.%202274%2C%20Talca%2C%20Chile&output=embed"
+  mapaSrc: "https://www.google.com/maps?q=Calle%209%20Nte.%202274%2C%20Talca%2C%20Chile&output=embed"
 };
 
 export const instagramInicio = {
@@ -226,14 +225,14 @@ export const instagramInicio = {
 
 export const accesosCircularesInicio = [
   {
-    titulo: "Mision de la escuela",
+    titulo: "Misión de la escuela",
     texto:
       "Promover una educacion que ofrezca experiencias de aprendizaje creativas e innovadoras.",
     href: rutas.misionVision,
     icono: "fa-compass"
   },
   {
-    titulo: "Vision de la escuela",
+    titulo: "Visión de la escuela",
     texto:
       "Ser reconocida por su formacion academica sustentada en un trabajo creativo, innovador y de excelencia.",
     href: rutas.misionVision,
@@ -244,14 +243,14 @@ export const accesosCircularesInicio = [
 export const pieContenido = pieContenidoData;
 
 export const seccionesInstitucionalesPagina = [
-  { titulo: "Mision de la escuela", id: "mision" },
-  { titulo: "Vision de la escuela", id: "vision" },
+  { titulo: "Misión de la escuela", id: "misión" },
+  { titulo: "Visión de la escuela", id: "visión" },
   ...documentosOficiales
 ];
 
 export const misionVisionDetalle = {
   subtitulo: "Nuestra Escuela",
-  titulo: "Mision y vision",
+  titulo: "Misión y Visión",
   lema: "Escuela Esperanza: “Compromiso y Acción”",
   secciones: [
     {
