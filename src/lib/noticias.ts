@@ -63,7 +63,7 @@ export function getNewsDate(noticia: Noticia) {
 }
 
 export function getNewsSummary(noticia: Noticia, maxLength = 165) {
-  return truncateNewsText(stripMarkdown(noticia.body), maxLength);
+  return truncateNewsText(stripMarkdown(noticia.body ?? ""), maxLength);
 }
 
 export function getGalleryImages(gallery: Noticia["data"]["gallery"]) {
