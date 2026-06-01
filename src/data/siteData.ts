@@ -144,9 +144,19 @@ export const talleres = [
     href: `${rutas.talleres}danza/`,
     imagen: "/images/slide3.png",
     descripcion: [
-      "Aun no se cuenta con informacion oficial sobre este taller. Agradecemos su comprension y le invitamos a contactarse con nosotros ante cualquier duda o consulta."
+      "El taller de danza para niñas y niños de 8 a 12 años es un espacio creativo",
+      "y dinámico donde el movimiento se transforma en expresión, alegría y",
+      "aprendizaje. A través de juegos, coreografías y diferentes estilos de danza",
+      "las y los participantes desarrollan coordinación, ritmo, confianza y trabajo",
+      "en equipo en un ambiente respetuoso y motivador.",
+      "Cada sesión invita a explorar el cuerpo y la música de manera lúdica",
+      "fortaleciendo habilidades motrices y emocionales mientras se fomenta la",
+      "imaginación y la expresión artística. Más que aprender pasos de baile, este ",
+      "taller busca que niñas y niños disfruten, creen y descubran nuevas formas",
+      "de comunicarse y compartir con otras personas.",
+      
     ],
-    sinInformacion: true
+    
   },
   {
     titulo: "Taller de Voleibol",
