@@ -5,12 +5,16 @@ import { directivas } from "../../data/siteData";
 
 export function getStaticPaths() {
   return directivas.map((directiva) => ({
-    params: { slug: directiva.slug },
-    props: { directiva }
+    params: { slug: directiva.slug }
   }));
 }
 
-const { directiva } = Astro.props;
+const { slug } = Astro.params;
+const directiva = directivas.find((item) => item.slug === slug);
+
+if (!directiva) {
+  return Astro.redirect("/directivas/");
+}
 ---
 
 <MainLayout title={`${directiva.titulo} | Escuela Esperanza`}>

@@ -1,6 +1,5 @@
 ---
 import { directivas } from "../../data/siteData";
-import { listarPerfilesPorGrupo } from "../../lib/perfiles";
 import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
 import NavegacionSecciones from "./NavegacionSecciones.astro";
 
@@ -9,8 +8,10 @@ interface Props {
 }
 
 const { directiva } = Astro.props;
-const integrantes = await listarPerfilesPorGrupo(directiva.slug);
+const integrantes = directiva.integrantes ?? [];
 const secciones = directiva.secciones ?? [{ titulo: directiva.titulo, texto: directiva.descripcion }];
+
+const obtenerParrafos = (texto: string | string[]) => Array.isArray(texto) ? texto : [texto];
 ---
 
 <main class="internal-page">
@@ -46,7 +47,9 @@ const secciones = directiva.secciones ?? [{ titulo: directiva.titulo, texto: dir
                   {integrante.nombre}
                   <span>({integrante.cargo})</span>
                 </h2>
-                <p>{integrante.descripcion}</p>
+                {obtenerParrafos(integrante.descripcion).map((parrafo) => (
+                  <p>{parrafo}</p>
+                ))}
               </article>
             ))}
           </div>
