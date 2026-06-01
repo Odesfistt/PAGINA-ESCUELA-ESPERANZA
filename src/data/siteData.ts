@@ -154,7 +154,6 @@ export const talleres = [
       "imaginación y la expresión artística. Más que aprender pasos de baile, este ",
       "taller busca que niñas y niños disfruten, creen y descubran nuevas formas",
       "de comunicarse y compartir con otras personas.",
-      
     ],
     
   },

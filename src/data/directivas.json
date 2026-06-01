@@ -8,13 +8,27 @@
           "nombre": "Ines Arias Quintero",
           "cargo": "Directora",
           "imagen": "/images/DirectoraInesAriasQuintero.jpeg",
-          "descripcion": "Es la Directora de la Escuela Esperanza de Talca. Educadora de Párvulos y Profesora General Básica, cuenta con un Magíster en Educación y Currículum, además de un Diplomado en Orientación Vocacional. Desde su rol como máxima autoridad directiva, es la responsable de conducir, coordinar y supervisar la gestión integral del establecimiento. Su propósito fundamental es ejercer un liderazgo pedagógico, administrativo y comunitario centrado en la mejora continua de los aprendizajes, el desarrollo profesional docente y el fortalecimiento de la convivencia escolar. Con una mirada integral, guía a la comunidad educativa hacia la consecución de las metas del Proyecto Educativo Institucional (PEI) y el Plan de Mejoramiento Educativo (PME), asegurando siempre el cumplimiento de las normativas vigentes del Ministerio de Educación."
+          "descripcion": [
+          "Es la Directora de la Escuela Esperanza de Talca.",
+          "Educadora de Párvulos y Profesora General Básica, cuenta con un Magíster en Educación y Currículum, además de un Diplomado en Orientación Vocacional.",
+          "Desde su rol como máxima autoridad directiva, es la responsable de conducir, coordinar y supervisar la gestión integral del establecimiento.",
+          "Su propósito fundamental es ejercer un liderazgo pedagógico, administrativo y comunitario centrado en la mejora continua de los aprendizajes, el desarrollo profesional docente y el fortalecimiento de la convivencia escolar.",
+          "Con una mirada integral, guía a la comunidad educativa hacia la consecución de las metas del Proyecto Educativo Institucional (PEI) y el Plan de Mejoramiento Educativo (PME).",
+          "Asegura siempre el cumplimiento de las normativas vigentes del Ministerio de Educación."
+]
         }, 
         {
           "nombre": "Juan Carlos Arriagada Daigre",
           "cargo": "Inspector",
           "imagen": "/images/IspectorJuanCarlos.jpeg",
-          "descripcion": "Se desempeña actualmente como Inspector General de la Escuela Esperanza. Es Profesor General de Educación Básica y Licenciado en Educación, con especialidad en Matemáticas y un Magíster en Educación Pública. En su rol de docente directivo, es el responsable de organizar, coordinar y supervisar las actividades de convivencia escolar, disciplina y asistencia, así como de velar por el correcto funcionamiento administrativo y operativo del establecimiento. Su foco principal es asegurar un ambiente seguro, ordenado y propicio para el aprendizaje, en plena alineación con el Proyecto Educativo Institucional (PEI) y el Reglamento Interno de Convivencia Escolar (RICE)."
+          "descripcion": [
+                  "Se desempeña actualmente como Inspector General de la Escuela Esperanza.",
+                  "Es Profesor General de Educación Básica y Licenciado en Educación, con especialidad en Matemáticas y un Magíster en Educación Pública.",
+                  "En su rol de docente directivo, es el responsable de organizar, coordinar y supervisar las actividades de convivencia escolar, disciplina y asistencia.",
+                  "Así como de velar por el correcto funcionamiento administrativo y operativo del establecimiento.",
+                  "Su foco principal es asegurar un ambiente seguro, ordenado y propicio para el aprendizaje, en plena alineación con el Proyecto Educativo Institucional (PEI) y el Reglamento Interno de Convivencia Escolar (RICE)."
+]
+
         },
         {
           "nombre": "Teresa Rojas Albretch",
