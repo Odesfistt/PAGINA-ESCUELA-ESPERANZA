@@ -280,8 +280,8 @@ export const sellosEducativosDetalle = {
       numero: "1",
       titulo: "Educación Integral",
       icono: "fa-people-group",
-      texto:
-        "Superación académica a partir de una educación inclusiva, integral y participativa."
+      texto: 
+      "Superación académica a partir de una educación inclusiva, integral y participativa."
     },
     {
       numero: "2",
