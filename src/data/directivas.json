@@ -9,12 +9,9 @@
           "cargo": "Directora",
           "imagen": "/images/DirectoraInesAriasQuintero.jpeg",
           "descripcion": [
-            "Es la Directora de la Escuela Esperanza de Talca.",
-            "Educadora de Párvulos y Profesora General Básica, cuenta con un Magíster en Educación y Currículum, además de un Diplomado en Orientación Vocacional.",
-            "Desde su rol como máxima autoridad directiva, es la responsable de conducir, coordinar y supervisar la gestión integral del establecimiento.",
-            "Su propósito fundamental es ejercer un liderazgo pedagógico, administrativo y comunitario centrado en la mejora continua de los aprendizajes, el desarrollo profesional docente y el fortalecimiento de la convivencia escolar.",
-            "Con una mirada integral, guía a la comunidad educativa hacia la consecución de las metas del Proyecto Educativo Institucional (PEI) y el Plan de Mejoramiento Educativo (PME).",
-            "Asegura siempre el cumplimiento de las normativas vigentes del Ministerio de Educación."
+            "Es la Directora de la Escuela Esperanza de Talca, Educadora de Párvulos y Profesora General Básica, con formación de postgrado en Educación y Currículum.",
+            "Como máxima autoridad del establecimiento, dirige, coordina y supervisa la gestión pedagógica, administrativa y comunitaria, orientando el trabajo institucional hacia la mejora continua de los aprendizajes.",
+            "Lidera el desarrollo profesional docente, fortalece la convivencia escolar y guía a la comunidad educativa en el cumplimiento de las metas del Proyecto Educativo Institucional (PEI) y del Plan de Mejoramiento Educativo (PME)."
           ]
         },
         {
@@ -22,11 +19,9 @@
           "cargo": "Inspector",
           "imagen": "/images/IspectorJuanCarlos.jpeg",
           "descripcion": [
-            "Se desempeña actualmente como Inspector General de la Escuela Esperanza.",
-            "Es Profesor General de Educación Básica y Licenciado en Educación, con especialidad en Matemáticas y un Magíster en Educación Pública.",
-            "En su rol de docente directivo, es el responsable de organizar, coordinar y supervisar las actividades de convivencia escolar, disciplina y asistencia.",
-            "Así como de velar por el correcto funcionamiento administrativo y operativo del establecimiento.",
-            "Su foco principal es asegurar un ambiente seguro, ordenado y propicio para el aprendizaje, en plena alineación con el Proyecto Educativo Institucional (PEI) y el Reglamento Interno de Convivencia Escolar (RICE)."
+                  "Se desempeña como Inspector General de la Escuela Esperanza, coordinando y supervisando la convivencia escolar, la disciplina y la asistencia de los estudiantes.",
+                  "Vela por el correcto funcionamiento administrativo y operativo del establecimiento, contribuyendo a una gestión eficiente y organizada.",
+                  "Promueve un ambiente seguro, ordenado y favorable para el aprendizaje, en concordancia con el PEI y el Reglamento Interno de Convivencia Escolar."
           ]
         },
         {
@@ -58,19 +53,19 @@
           "nombre": "JOSEFINA VILLARROEL TORRES",
           "cargo": "Presidenta del Centro General de Padres y Apoderados",
           "imagen": "/images/perfiles/sra.-josefina-villarroel.jpeg",
-          "descripcion": "Nombre Presidenta del Centro General de Padres y Apoderados: JOSEFINA VILLARROEL TORRES"
+          "descripcion": "La Presidenta del Centro General de Padres y Apoderados representa a las familias ante la comunidad educativa, lidera y coordina las actividades de la directiva, promueve la participación de los apoderados y apoya iniciativas orientadas al bienestar y desarrollo de los estudiantes."
         },
         {
           "nombre": "CINTHIA MORAGA",
           "cargo": "Secretaria",
           "imagen": "/images/perfiles/sra.-cinthia-moraga.jpeg",
-          "descripcion": "Nombre Secretaria CGPA: CINTHIA MORAGA"
+          "descripcion": "La Secretaria del Centro General de Padres y Apoderados se encarga de organizar y registrar las reuniones, redactar actas, mantener la documentación actualizada y apoyar la comunicación entre la directiva, los apoderados y la comunidad educativa."
         },
         {
           "nombre": "PAOLA MONTIEL GUTIERREZ",
           "cargo": "Tesorera del Centro General de Padres y Apoderados",
           "imagen": "/images/perfiles/sra.-paola-montiel.jpeg",
-          "descripcion": "Nombre Tesorera del Centro General de Padres y Apoderados: PAOLA MONTIEL GUTIERREZ"
+          "descripcion": "La Tesorera del Centro General de Padres y Apoderados es responsable de administrar los recursos económicos, llevar el control de ingresos y gastos, organizar balances financieros y velar por el uso transparente de los fondos en beneficio de la comunidad educativa."
         }
       ],
       "descripcion": [
