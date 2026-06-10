@@ -38,15 +38,7 @@ const descripcionInferior = usaTextoContinuado ? taller.descripcion.slice(2) : [
 
       <section class="about-info-block">
         <div class="workshop-detail-layout">
-          <div class="workshop-gallery">
-            {"imagenes" in taller && Array.isArray(taller.imagenes) ? (
-              taller.imagenes.map((imagen) => (
-                <img src={imagen as string} alt={taller.titulo} />
-              ))
-            ) : (
-              <img src={taller.imagen} alt={taller.titulo} />
-            )}
-          </div>
+          <img src={taller.imagen} alt={taller.titulo} />
 
           <div>
             {taller.ciclo && <span class="workshop-detail-cycle">{taller.ciclo}</span>}

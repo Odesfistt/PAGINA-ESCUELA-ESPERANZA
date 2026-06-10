@@ -130,13 +130,7 @@ export const talleres = [
     titulo: "Taller de musica",
     slug: "musica",
     href: `${rutas.talleres}musica/`,
-    imagenes: [
-              "/images/tallerdemusica.jpeg",
-              "/images/tallerdemusica2.jpeg",
-              
-],
-    
-    
+    imagen: "/images/tallerdemusica.jpeg",
     descripcion: [
       "El taller de música está orientado a que los alumnos puedan desarrollar sus habilidades artísticas, motrices e intelectuales a través de la música. El objetivo de este taller es formar una banda con los estudiantes y que cada uno de ellos pueda ejecutar un instrumento musical.",
       "Se trabaja con distintos instrumentos, entre ellos trompetas, saxofón, pianos, guitarras, bajos y batería. Se forma al alumno en su instrumento de manera particular y grupal, realizando ensayos y presentaciones que ayudan a aprender a trabajar en equipo, fomentan el respeto y fortalecen la integración entre compañeros.",
@@ -150,13 +144,11 @@ export const talleres = [
     href: `${rutas.talleres}danza/`,
     imagen: "/images/slide3.png",
     descripcion: [
-      "El taller de danza para niñas y niños de 8 a 12 años es un espacio creativo y dinámico donde el movimiento se transforma en expresión, alegría y,aprendizaje. A través de juegos, coreografías y diferentes estilos de danza,las y los participantes desarrollan coordinación, ritmo, confianza y trabajo,en equipo en un ambiente respetuoso y motivador.,Cada sesión invita a explorar el cuerpo y la música de manera lúdica, fortaleciendo habilidades motrices y emocionales mientras se fomenta la, imaginación y la expresión artística. Más que aprender pasos de baile, este , taller busca que niñas y niños disfruten, creen y descubran nuevas formas,de comunicarse y compartir con otras personas.",
+      "El taller de danza para niñas y niños de 8 a 12 años es un espacio creativo y dinámico donde el movimiento se transforma en expresión, alegría y,aprendizaje. A través de juegos, coreografías y diferentes estilos de danza,las y los participantes desarrollan coordinación, ritmo, confianza y trabajo,en equipo en un ambiente respetuoso y motivador.,Cada sesión invita a explorar el cuerpo y la música de manera lúdica, fortaleciendo habilidades motrices y emocionales mientras se fomenta la, imaginación y la expresión artística. Más que aprender pasos de baile, este , taller busca que niñas y niños disfruten, creen y descubran nuevas formas, de comunicarse y compartir con otras personas.",
     ]
     
   },
   {
-    
-    //agregar dos imagenes en cada taller restante. danza,voley,robotica futsal
     titulo: "Taller de Voleibol",
     slug: "voleibol",
     href: `${rutas.talleres}voleibol/`,
@@ -180,11 +172,7 @@ export const talleres = [
     titulo: "Taller Deportivo",
     slug: "deportivo",
     href: `${rutas.talleres}deportivo/`,
-    imagenes: [
-              "/images/tallerdeportivo.jpeg",
-              "/images/tallerdeportivo2.jpeg",
-              
-],
+    imagen: "/images/tallerdeportivo.jpeg",
     ciclo: "1° ciclo",
     descripcion: [
       "Este taller está orientado al desarrollo de las habilidades motrices básicas en estudiantes de primer ciclo, tales como correr, saltar, lanzar y coordinar movimientos. A través de una metodología lúdica y dinámica, se busca fortalecer el compañerismo y la participación activa. Las actividades se organizan de manera alternada, intercalando una semana de futsal y otra de handball, con el propósito de estimular tanto las habilidades óculo-podales como las óculo-manuales, favoreciendo un desarrollo integral en los estudiantes."
@@ -194,11 +182,8 @@ export const talleres = [
     titulo: "Taller de ingles",
     slug: "ingles",
     href: `${rutas.talleres}ingles/`,
-    imagenes: [
-              "/images/tallerdeingles.jpeg",
-              "/images/tallerdeingles2.jpeg",
-              
-],
+    imagen: "/images/tallerdeingles.jpeg",
+    imagen2: "/images/tallerdeingles2.jpeg",
     ciclo: "2° ciclo",
     descripcion: [
       "El Taller de Idioma Inglés está orientado a estudiantes de segundo ciclo básico y tiene como propósito fortalecer el aprendizaje del idioma de manera dinámica, participativa y cercana a la realidad de los niños y niñas. A través de actividades lúdicas, juegos, canciones, diálogos, proyectos y uso de recursos audiovisuales, se busca desarrollar habilidades comunicativas básicas en comprensión y expresión oral y escrita.",
