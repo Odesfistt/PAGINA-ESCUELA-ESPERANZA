@@ -152,7 +152,7 @@ export const talleres = [
     titulo: "Taller de Voleibol",
     slug: "voleibol",
     href: `${rutas.talleres}voleibol/`,
-    imagen: "/images/slide2.png",
+    imagen: "/images/tallerdevoley.jpeg",
     ciclo: "2° ciclo",
     descripcion: [
       "Este taller está enfocado en la enseñanza y práctica del voleibol como deporte colectivo, comenzando desde sus fundamentos básicos. A lo largo de las sesiones se trabajan habilidades técnicas como el pase, saque y recepción, junto con aspectos tácticos simples del juego. Además, se promueve de manera constante el trabajo en equipo, la comunicación y el respeto entre compañeros, favoreciendo un ambiente de aprendizaje colaborativo y participativo."
