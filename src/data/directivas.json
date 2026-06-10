@@ -28,7 +28,11 @@
           "nombre": "Teresa Rojas Albretch",
           "cargo": "Jefa UTP",
           "imagen": "/images/JefaUtpTeresaRojas.jpeg",
-          "descripcion": "nada aun."
+          "descripcion": [
+                     "La Unidad Técnico Pedagógica es la responsable del desarrollo de todas las actividades curriculares del establecimiento.",
+                     "Le corresponde programar, organizar, supervisar y evaluar este proceso.",
+                     "Las funciones técnico-pedagógicas son aquellas que, sobre la base de una formación y experiencia docente específica para cada función, se ocupan respectivamente de los siguientes campos de apoyo de la docencia: orientación educacional y vocacional, supervisión pedagógica, planificación curricular, evaluación del aprendizaje, investigación pedagógica y coordinación de procesos de perfeccionamiento docente."
+        ]
         }
       ],
       "descripcion": [
