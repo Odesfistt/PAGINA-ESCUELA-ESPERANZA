@@ -130,7 +130,13 @@ export const talleres = [
     titulo: "Taller de musica",
     slug: "musica",
     href: `${rutas.talleres}musica/`,
-    imagen: "/images/tallerdemusica.jpeg",
+    imagenes: [
+              "/images/tallerdemusica.jpeg",
+              "/images/tallerdemusica2.jpeg",
+              
+],
+    
+    
     descripcion: [
       "El taller de música está orientado a que los alumnos puedan desarrollar sus habilidades artísticas, motrices e intelectuales a través de la música. El objetivo de este taller es formar una banda con los estudiantes y que cada uno de ellos pueda ejecutar un instrumento musical.",
       "Se trabaja con distintos instrumentos, entre ellos trompetas, saxofón, pianos, guitarras, bajos y batería. Se forma al alumno en su instrumento de manera particular y grupal, realizando ensayos y presentaciones que ayudan a aprender a trabajar en equipo, fomentan el respeto y fortalecen la integración entre compañeros.",
@@ -149,6 +155,8 @@ export const talleres = [
     
   },
   {
+    
+    //agregar dos imagenes en cada taller restante. danza,voley,robotica futsal
     titulo: "Taller de Voleibol",
     slug: "voleibol",
     href: `${rutas.talleres}voleibol/`,
@@ -172,7 +180,11 @@ export const talleres = [
     titulo: "Taller Deportivo",
     slug: "deportivo",
     href: `${rutas.talleres}deportivo/`,
-    imagen: "/images/tallerdeportivo.jpeg",
+    imagenes: [
+              "/images/tallerdeportivo.jpeg",
+              "/images/tallerdeportivo2.jpeg",
+              
+],
     ciclo: "1° ciclo",
     descripcion: [
       "Este taller está orientado al desarrollo de las habilidades motrices básicas en estudiantes de primer ciclo, tales como correr, saltar, lanzar y coordinar movimientos. A través de una metodología lúdica y dinámica, se busca fortalecer el compañerismo y la participación activa. Las actividades se organizan de manera alternada, intercalando una semana de futsal y otra de handball, con el propósito de estimular tanto las habilidades óculo-podales como las óculo-manuales, favoreciendo un desarrollo integral en los estudiantes."
