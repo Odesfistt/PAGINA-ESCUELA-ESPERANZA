@@ -182,8 +182,11 @@ export const talleres = [
     titulo: "Taller de ingles",
     slug: "ingles",
     href: `${rutas.talleres}ingles/`,
-    imagen: "/images/tallerdeingles.jpeg",
-    imagen2: "/images/tallerdeingles2.jpeg",
+    imagenes: [
+              "/images/tallerdeingles.jpeg",
+              "/images/tallerdeingles2.jpeg",
+              
+],
     ciclo: "2° ciclo",
     descripcion: [
       "El Taller de Idioma Inglés está orientado a estudiantes de segundo ciclo básico y tiene como propósito fortalecer el aprendizaje del idioma de manera dinámica, participativa y cercana a la realidad de los niños y niñas. A través de actividades lúdicas, juegos, canciones, diálogos, proyectos y uso de recursos audiovisuales, se busca desarrollar habilidades comunicativas básicas en comprensión y expresión oral y escrita.",
