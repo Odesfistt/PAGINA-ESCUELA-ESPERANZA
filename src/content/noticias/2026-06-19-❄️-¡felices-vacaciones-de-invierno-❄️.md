@@ -29,3 +29,5 @@ draft: false
 **Agradecemos el compromiso y esfuerzo demostrado durante estos primeros meses del año y los invitamos a regresar con alegría, motivación y muchas ganas de seguir aprendiendo.**
 
 **💚 ¡Que tengan unas felices, seguras y reparadoras vacaciones de invierno! 💛**
+
+**Escuela Esperanza – Talca** 🏫✨
