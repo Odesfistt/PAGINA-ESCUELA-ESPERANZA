@@ -27,17 +27,20 @@ import { rutas } from "../../lib/rutas";
 
               {item.children && (
                 <ul class="submenu">
-                  {item.children.map((child) => (
-                    <li>
-                      <a
-                        href={child.href}
-                        target={child.external ? "_blank" : undefined}
-                        rel={child.external ? "noopener noreferrer" : undefined}
-                      >
-                        {child.label}
-                      </a>
-                    </li>
-                  ))}
+                  {item.children.map((child) => {
+                    const isExternal = "external" in child && child.external;
+                    return (
+                      <li>
+                        <a
+                          href={child.href}
+                          target={isExternal ? "_blank" : undefined}
+                          rel={isExternal ? "noopener noreferrer" : undefined}
+                        >
+                          {child.label}
+                        </a>
+                      </li>
+                    );
+                  })}
                 </ul>
               )}
             </li>
@@ -105,15 +108,18 @@ import { rutas } from "../../lib/rutas";
 
           {item.children && (
             <div class="scroll-submenu">
-              {item.children.map((child) => (
-                <a
-                  href={child.href}
-                  target={child.external ? "_blank" : undefined}
-                  rel={child.external ? "noopener noreferrer" : undefined}
-                >
-                  {child.label}
-                </a>
-              ))}
+              {item.children.map((child) => {
+                const isExternal = "external" in child && child.external;
+                return (
+                  <a
+                    href={child.href}
+                    target={isExternal ? "_blank" : undefined}
+                    rel={isExternal ? "noopener noreferrer" : undefined}
+                  >
+                    {child.label}
+                  </a>
+                );
+              })}
             </div>
           )}
         </div>
@@ -160,15 +166,18 @@ import { rutas } from "../../lib/rutas";
         <details class="mobile-menu-group">
           <summary>{item.label}</summary>
           <div class="mobile-submenu">
-            {item.children.map((child) => (
-              <a
-                href={child.href}
-                target={child.external ? "_blank" : undefined}
-                rel={child.external ? "noopener noreferrer" : undefined}
-              >
-                {child.label}
-              </a>
-            ))}
+            {item.children.map((child) => {
+              const isExternal = "external" in child && child.external;
+              return (
+                <a
+                  href={child.href}
+                  target={isExternal ? "_blank" : undefined}
+                  rel={isExternal ? "noopener noreferrer" : undefined}
+                >
+                  {child.label}
+                </a>
+              );
+            })}
           </div>
         </details>
       ) : (
