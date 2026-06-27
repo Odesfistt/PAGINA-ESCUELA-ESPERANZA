@@ -14,7 +14,6 @@ gallery:
   - foto_url: /images/noticias/imagen9.jpeg
   - foto_url: /images/noticias/imagen17.jpeg
   - foto_url: /images/noticias/imagen-13.jpeg
-  - foto_url: /images/noticias/imagen19.jpeg
   - foto_url: /images/noticias/imagen10.jpeg
   - foto_url: /images/noticias/imagen18.jpeg
   - foto_url: /images/noticias/imagen-15.jpeg
