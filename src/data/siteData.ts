@@ -142,7 +142,7 @@ export const talleres = [
     titulo: "Taller de danza",
     slug: "danza",
     href: `${rutas.talleres}danza/`,
-    imagen: "/images/slide3.png",
+    imagen: "/images/tallerdedanza.jpeg",
     descripcion: [
       "El taller de danza para niñas y niños de 8 a 12 años es un espacio creativo y dinámico donde el movimiento se transforma en expresión, alegría y,aprendizaje. A través de juegos, coreografías y diferentes estilos de danza,las y los participantes desarrollan coordinación, ritmo, confianza y trabajo,en equipo en un ambiente respetuoso y motivador.,Cada sesión invita a explorar el cuerpo y la música de manera lúdica, fortaleciendo habilidades motrices y emocionales mientras se fomenta la, imaginación y la expresión artística. Más que aprender pasos de baile, este , taller busca que niñas y niños disfruten, creen y descubran nuevas formas, de comunicarse y compartir con otras personas.",
     ]
