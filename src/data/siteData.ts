@@ -162,7 +162,7 @@ export const talleres = [
     titulo: "Taller de Futsal",
     slug: "futsal",
     href: `${rutas.talleres}futsal/`,
-    imagen: "/images/futsal.jpg",
+    imagen: "/images/futsal.jpeg",
     ciclo: "2° ciclo",
     descripcion: [
       "El taller de futsal tiene como objetivo desarrollar las habilidades propias de este deporte colectivo, iniciando desde lo más básico. Se trabajan fundamentos técnicos como el control del balón, pase, conducción y finalización, incorporando progresivamente situaciones de juego real. Al igual que en voleibol, se fomenta el trabajo en equipo, la toma de decisiones y el compañerismo, promoviendo valores deportivos dentro y fuera de la cancha."
