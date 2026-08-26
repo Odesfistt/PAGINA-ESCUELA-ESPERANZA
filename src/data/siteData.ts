@@ -93,7 +93,7 @@ export const talleres = [
     titulo: "Taller de Programación y Robótica",
     slug: "programacion-robotica",
     href: `${rutas.talleres}programacion-robotica/`,
-    imagen: "/images/slide6.jpeg",
+    imagen: "/images/programacionrobotica.PNG",
     descripcion: [
       "El taller de programación y robótica, utilizamos plataformas de Ofimática para que nuestros alumnos puedan comprender su uso y la importancia en su enseñanza en general, utilizamos Code.org el cual es una plataforma que por bloques nuestros alumnos aprenden a programar además de revisar código de los trabajos que realizan, utilizamos nuestros Robots LEGO Y VEX.",
       "Nuestros alumnos participan de las ferias de Robótica realizadas en distintos establecimientos de la región obteniendo resultados enriquecedores, conociendo proyectos de otros colegios, liceos y universidades , aportando conocimientos y adquiriendo experiencia, además de participar de concursos de robot’s etc. Con los cuales han tenido buenas experiencias.",
