@@ -184,7 +184,7 @@ export const talleres = [
     titulo: "Taller Medioambiental",
     slug: "medioambiental",
     href: `${rutas.talleres}medioambiental/`,
-    imagen: "/images/tallermedioambiental.jpeg",
+    imagen: "/images/tallermedioambiental.jpg", 
     ciclo: "2° ciclo",
     descripcion: [
       "El Taller Medioambiental tiene como objetivo sensibilizar a los estudiantes sobre la importancia de la conservación del medio ambiente y fomentar prácticas sostenibles en su vida diaria. A través de actividades prácticas, juegos y proyectos, se busca desarrollar una conciencia ecológica y promover el respeto por la naturaleza."
