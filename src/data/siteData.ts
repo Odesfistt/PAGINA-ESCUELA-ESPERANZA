@@ -178,6 +178,19 @@ export const talleres = [
       "Este taller está orientado al desarrollo de las habilidades motrices básicas en estudiantes de primer ciclo, tales como correr, saltar, lanzar y coordinar movimientos. A través de una metodología lúdica y dinámica, se busca fortalecer el compañerismo y la participación activa. Las actividades se organizan de manera alternada, intercalando una semana de futsal y otra de handball, con el propósito de estimular tanto las habilidades óculo-podales como las óculo-manuales, favoreciendo un desarrollo integral en los estudiantes."
     ]
   },
+   
+
+{
+    titulo: "Taller Medioambiental",
+    slug: "medioambiental",
+    href: `${rutas.talleres}medioambiental/`,
+    imagen: "/images/tallermedioambiental.jpeg",
+    ciclo: "2° ciclo",
+    descripcion: [
+      "El Taller Medioambiental tiene como objetivo sensibilizar a los estudiantes sobre la importancia de la conservación del medio ambiente y fomentar prácticas sostenibles en su vida diaria. A través de actividades prácticas, juegos y proyectos, se busca desarrollar una conciencia ecológica y promover el respeto por la naturaleza."
+    ]
+},
+
   {
     titulo: "Taller de ingles",
     slug: "ingles",
