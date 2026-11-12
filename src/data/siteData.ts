@@ -94,6 +94,7 @@ export const talleres = [
     slug: "programacion-robotica",
     href: `${rutas.talleres}programacion-robotica/`,
     imagen: "/images/programacionrobotica.PNG",
+    ciclo: "2° ciclo",
     descripcion: [
       "El taller de programación y robótica, utilizamos plataformas de Ofimática para que nuestros alumnos puedan comprender su uso y la importancia en su enseñanza en general, utilizamos Code.org el cual es una plataforma que por bloques nuestros alumnos aprenden a programar además de revisar código de los trabajos que realizan, utilizamos nuestros Robots LEGO Y VEX.",
       "Nuestros alumnos participan de las ferias de Robótica realizadas en distintos establecimientos de la región obteniendo resultados enriquecedores, conociendo proyectos de otros colegios, liceos y universidades , aportando conocimientos y adquiriendo experiencia, además de participar de concursos de robot’s etc. Con los cuales han tenido buenas experiencias.",
@@ -131,6 +132,7 @@ export const talleres = [
     slug: "musica",
     href: `${rutas.talleres}musica/`,
     imagen: "/images/tallerdemusica.jpeg",
+    ciclo: "1 y 2° ciclo",
     descripcion: [
       "El taller de música está orientado a que los alumnos puedan desarrollar sus habilidades artísticas, motrices e intelectuales a través de la música. El objetivo de este taller es formar una banda con los estudiantes y que cada uno de ellos pueda ejecutar un instrumento musical.",
       "Se trabaja con distintos instrumentos, entre ellos trompetas, saxofón, pianos, guitarras, bajos y batería. Se forma al alumno en su instrumento de manera particular y grupal, realizando ensayos y presentaciones que ayudan a aprender a trabajar en equipo, fomentan el respeto y fortalecen la integración entre compañeros.",
@@ -143,6 +145,7 @@ export const talleres = [
     slug: "danza",
     href: `${rutas.talleres}danza/`,
     imagen: "/images/tallerdedanza.jpeg",
+    ciclo: "1 y 2° ciclo",
     descripcion: [
       "El taller de danza para niñas y niños de 8 a 12 años es un espacio creativo y dinámico donde el movimiento se transforma en expresión, alegría y,aprendizaje. A través de juegos, coreografías y diferentes estilos de danza,las y los participantes desarrollan coordinación, ritmo, confianza y trabajo,en equipo en un ambiente respetuoso y motivador.,Cada sesión invita a explorar el cuerpo y la música de manera lúdica, fortaleciendo habilidades motrices y emocionales mientras se fomenta la, imaginación y la expresión artística. Más que aprender pasos de baile, este , taller busca que niñas y niños disfruten, creen y descubran nuevas formas, de comunicarse y compartir con otras personas.",
     ]
