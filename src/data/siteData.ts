@@ -228,12 +228,12 @@ export const instagramInicio = {
   nombre: "Escuela Esperanza",
   href: "https://www.instagram.com/escuela_esperanzatalca/",
   publicaciones: [
-    "/images/ig1.png",
-    "/images/ig2.png",
-    "/images/ig3.png",
-    "/images/ig4.png",
-    "/images/ig5.png",
-    "/images/ig6.png"
+    "/images/ig7.png",
+    "/images/ig8.png",
+    "/images/ig9.png",
+    "/images/ig10.png",
+    "/images/ig11.png",
+    "/images/ig12.png"
   ]
 };
 
