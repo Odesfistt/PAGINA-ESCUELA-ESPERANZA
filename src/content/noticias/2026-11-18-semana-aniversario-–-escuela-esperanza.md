@@ -10,7 +10,6 @@ gallery:
   - foto_url: /images/noticias/5-ani.jpeg
   - foto_url: /images/noticias/6-ani.jpeg
   - foto_url: /images/noticias/8-ani.jpeg
-  - foto_url: /images/noticias/9-ani.jpeg
   - foto_url: /images/noticias/10-ani.jpeg
   - foto_url: /images/noticias/11-ani.jpeg
   - foto_url: /images/noticias/12-ani.jpeg
